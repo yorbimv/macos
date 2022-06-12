@@ -1,9 +1,10 @@
 # MacOs Catalina Config
 
-Esta es una guia para el proceso de configuracion de una mac nueva.
+Configuración de Mac Actual 2022
 
-Son las herramientas recomendadas para tener un optimo funcionamiento.
-
+- Apps Instaladas
+- Configuraciones 
+- Shorcuts
 
 ***
 ### Configuraciones iniciales
