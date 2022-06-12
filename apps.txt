@@ -1,0 +1,78 @@
+Adobe Acrobat Reader DC.app
+Alfred 4.app
+Amazon Music.app
+balenaEtcher.app
+Bartender 3.app
+Bartender 4.app
+Be Focused.app
+Brave Browser.app
+Chrome Remote Desktop Host Uninstaller.app
+CleanMyMac X.app
+CopyClip.app
+Cyberduck.app
+Dash.app
+DB Browser for SQLite.app
+Dia.app
+Discord.app
+Disk Drill.app
+Docker.app
+Download Shuttle Pro.app
+Dynamo.app
+Encrypto.app
+Ethernet Status.app
+FileZilla.app
+Final Cut Pro.app
+Friendly Streaming.app
+GhosteryLite.app
+GIMP-2.10.app
+GitHub Desktop.app
+Godot.app
+Google Chrome.app
+Google Docs.app
+Google Drive.app
+Google Sheets.app
+Google Slides.app
+HazeOver.app
+hisuite.app
+HP Smart.app
+IINA.app
+iMovie.app
+iTerm.app
+Itsycal.app
+KeyCastr.app
+Keynote.app
+Loom.app
+Magnet.app
+MEGAsync.app
+Microsoft Excel.app
+Microsoft OneNote.app
+Microsoft PowerPoint.app
+Microsoft Teams.app
+Microsoft Word.app
+Min.app
+MySQLWorkbench.app
+Notion.app
+Numbers.app
+One Click Translate for Safari.app
+OneDrive.app
+Opera.app
+Pages.app
+Paint X.app
+PullTube.app
+Safari.app
+Slack.app
+Spark.app
+TeamViewer.app
+Telegram.app
+The Unarchiver.app
+Things3.app
+Transmission.app
+Utilities
+VirtualBox.app
+Visual Studio Code.app
+VLC.app
+VMware Fusion.app
+Warp.app
+WhatsApp.app
+Zenmap.app
+zoom.us.app
