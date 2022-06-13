@@ -63,7 +63,7 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
     - Instalar:
         - Plugins
             - ```brew install zsh-syntax-highlighting```
-            - ```brew install zsh-autosuggestions.rb```
+            - ```brew install zsh-autosuggestions```
 
             - 
         - herramientas de zsh
