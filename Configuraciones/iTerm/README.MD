@@ -36,8 +36,9 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
 
 ##### Configuración de tema
 
-1. Descargar ohmyzsh ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
-2. Descargar [PowerLevel10](https://github.com/romkatv/powerlevel10k#homebrew) en la carpeta de tu usuario
+1. Descargar ohmyzsh
+    - ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+3. Descargar [PowerLevel10](https://github.com/romkatv/powerlevel10k#homebrew) en la carpeta de tu usuario
     - ``` git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k ```
 
 3. Editar .zshrc 
@@ -60,7 +61,7 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
          .
          .
          ~~~
-    - Instalar:
+    - Instalar (**Consultar tutorial**)
         - Plugins
             - ```brew install zsh-syntax-highlighting```
             - ```brew install zsh-autosuggestions```
@@ -73,10 +74,21 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
             # To install useful key bindings and fuzzy completion:
             $(brew --prefix)/opt/fzf/install
             ~~~
-            - fif
+            - fif (buscador de palabras en archivos)
+                - Para usarse se necesita instalar primero ```brew install ripgrep```
+                - Despues se agrega la linea en .zshrc
+                 ~~~ 
+                 fif() {
+                  if [ ! "$#" -gt 1 ]; then echo "Necesito una cadena para buscar!"; return 1; fi
+                  rg --files-with-matches --no-messages $1 | fzf --preview "highlight -O ansi -l {} 2> /dev/null | rg --colors 'match:bg:yellow' --ignore-case --pretty --context 10 $1 || rg --ignore-case --pretty --context 10 $1 {}"
+                } 
+                ~~~
+ 
+            
         - Fuente:
             - [highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
             - [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions.  )  
+            - [fif](https://logico.ar/blog/2019/07/13/fzf-el-buscador-nix)
         
     - Editar la vista de la terminal desde ~/.p10k.zsh (linea 32 y 50)
       
@@ -91,7 +103,7 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
 
     # Ir al principio & final
     bindkey "\e[D" delete-char    #fn + izq 
-    bindkey "\e[C" delete-char    #fn + derechar 
+    bindkey "\e[C" delete-char    #fn + derecha 
 
     # Accion suprimir
     bindkey "\e[3~" delete-char    #fn + eliminar 
@@ -100,5 +112,12 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
     ~~~
 
 6. En caso de no ejecutar Vs Code desde terminal
+
    > Abra el código de Visual Studio y presione Comando + Shift + P 
    > luego escriba Shell en la paleta de comandos ahora puede encontrar esta opción como Shell Command : Install code in PATH de la lista sugerida en la paleta de comandos. Seleccione esas opciones.
+
+****
+##### Instalacion de herramientas de hacking
+
+1. [whatweb](https://github.com/urbanadventurer/WhatWeb)
+2. [sherlock](https://github.com/sherlock-project/sherlock)
