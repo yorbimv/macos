@@ -36,5 +36,13 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
 
 ##### Configuración de tema
 
-1. [PowerLevel10](https://github.com/romkatv/powerlevel10k#homebrew)
-2. 
+1. Descargar ohmyzsh ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+2. Descargar [PowerLevel10](https://github.com/romkatv/powerlevel10k#homebrew) en la carpeta de tu usuario
+    - ``` git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k ```
+
+3. Editar .zshrc 
+    - ZSH_THEME = "powerlevel10k/powerlevel10k"
+    - Reiniciar iterm
+4. Inicia configuración de powerlevel
+- Configurar ...
+- Descargar fuente sourcecodepro+powerline
