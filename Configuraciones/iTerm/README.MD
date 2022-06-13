@@ -47,3 +47,25 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
 - Configurar al gusto
 - Descargar [fuentes](https://github.com/yorbimv/macos_catalina_config/tree/main/Configuraciones/Fonts) e instalar sourcecodepro+powerline (opcional)
     - Tambien se pueden conseguir más fuentes en esta [página](https://www.nerdfonts.com/font-downloads) 
+5. Del archivo .zsh:
+    - Agregar todos los alias
+         ~~~ 
+         # git
+         alias gs="git status"
+         alias gbr="git branch"
+         alias ga="git add"
+         alias gc="git commit -m"
+         alias gp="git push"
+         .
+         .
+         .
+         ~~~
+    - Agregar plugins y herramientas de zsh
+        - fzf
+        - fif 
+    - Editar la vista de la terminal desde ~/.p10k.zsh  
+    ![Screen Shot 2022-06-13 at 4 43 56](https://user-images.githubusercontent.com/65741972/173326646-0413b2ca-35e3-45aa-b8f8-182cdf035dc7.png)
+
+6. En caso de no ejecutar Vs Code desde terminal
+   > Abra el código de Visual Studio y presione Comando + Shift + P 
+   > luego escriba Shell en la paleta de comandos ahora puede encontrar esta opción como Shell Command : Install code in PATH de la lista sugerida en la paleta de comandos. Seleccione esas opciones.
