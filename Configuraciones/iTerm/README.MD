@@ -44,5 +44,6 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
     - ZSH_THEME = "powerlevel10k/powerlevel10k"
     - Reiniciar iterm
 4. Inicia configuración de powerlevel
-- Configurar ...
-- Descargar fuente sourcecodepro+powerline
+- Configurar al gusto
+- Descargar [fuentes](https://github.com/yorbimv/macos_catalina_config/tree/main/Configuraciones/Fonts) e instalar sourcecodepro+powerline (opcional)
+    - Tambien se pueden conseguir más fuentes en esta [página](https://www.nerdfonts.com/font-downloads) 
