@@ -65,7 +65,6 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
             - ```brew install zsh-syntax-highlighting```
             - ```brew install zsh-autosuggestions```
 
-            - 
         - herramientas de zsh
             - [fzf](https://github.com/junegunn/fzf)
             ~~~
