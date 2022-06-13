@@ -60,12 +60,45 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
          .
          .
          ~~~
-    - Agregar plugins y herramientas de zsh
-        - fzf
-        - fif 
+    - Instalar:
+        - Plugins
+            - ```brew install zsh-syntax-highlighting```
+            - ```brew install zsh-autosuggestions.rb```
+
+            - 
+        - herramientas de zsh
+            - [fzf](https://github.com/junegunn/fzf)
+            ~~~
+            brew install fzf
+
+            # To install useful key bindings and fuzzy completion:
+            $(brew --prefix)/opt/fzf/install
+            ~~~
+            - fif
+        - Fuente:
+            - [highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+            - [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions.  )  
+        
     - Editar la vista de la terminal desde ~/.p10k.zsh (linea 32 y 50)
       
     ![Screen Shot 2022-06-13 at 4 43 56](https://user-images.githubusercontent.com/65741972/173326646-0413b2ca-35e3-45aa-b8f8-182cdf035dc7.png)
+    
+    - Agregar Movimientos de terminal
+    ~~~ 
+    # Movimientos terminal zsh
+    # Desplazarse por palabra
+    bindkey "[D" backward-word #tecla alt + izq
+    bindkey "[C" forward-word  #tecla alt + derecha
+
+    # Ir al principio & final
+    bindkey "\e[D" delete-char    #fn + izq 
+    bindkey "\e[C" delete-char    #fn + derechar 
+
+    # Accion suprimir
+    bindkey "\e[3~" delete-char    #fn + eliminar 
+
+
+    ~~~
 
 6. En caso de no ejecutar Vs Code desde terminal
    > Abra el código de Visual Studio y presione Comando + Shift + P 
