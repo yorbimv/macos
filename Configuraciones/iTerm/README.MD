@@ -63,7 +63,8 @@ Antes de configurar la terminal zsh, se debe instalar fish junto con omf
     - Agregar plugins y herramientas de zsh
         - fzf
         - fif 
-    - Editar la vista de la terminal desde ~/.p10k.zsh  
+    - Editar la vista de la terminal desde ~/.p10k.zsh (linea 32 y 50)
+      
     ![Screen Shot 2022-06-13 at 4 43 56](https://user-images.githubusercontent.com/65741972/173326646-0413b2ca-35e3-45aa-b8f8-182cdf035dc7.png)
 
 6. En caso de no ejecutar Vs Code desde terminal
