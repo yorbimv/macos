@@ -17,5 +17,10 @@
 
 En caso de que no se ejecute Vs Code desde terminal con ```code```
 
-   > Abra el código de Visual Studio y presione Comando + Shift + P 
-   > luego escriba Shell en la paleta de comandos ahora puede encontrar esta opción como Shell Command : Install code in PATH de la lista sugerida en la paleta de comandos. Seleccione esas opciones.
+   > Abra el código de Visual Studio y presione Comando + P 
+   > luego escriba "Shell" en la paleta de comandos
+   
+   > Ahora puede encontrar esta opción como "Shell Command : Install code in PATH"
+   
+   > Dar click e inicia instalación de PATH
+   
