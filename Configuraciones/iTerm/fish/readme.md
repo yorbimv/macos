@@ -36,3 +36,19 @@ Son los comandos personalizados que podemos usar en fish
 3. Guardamos la función + comando: 
     - ```funcsave lla```
 4. Ahora ya se puede ejecutar el comando
+
+![Screen Shot 2022-06-15 at 2 25 54](https://user-images.githubusercontent.com/65741972/173776084-a2c1f387-3d9d-4309-9eba-b31f7f896575.png)
+
+
+
+## Consultar alias creados
+
+Para ver los alias creados, basta con dirigirte a 
+
+<br>
+
+**/Users/yorbi/.config/fish/functions**
+
+<br>
+
+Los alias tienen la terminación .fish
