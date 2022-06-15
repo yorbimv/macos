@@ -136,6 +136,11 @@ alias sherlock="python3 /Users/yorbi/Documents/GitHub/hackingTools/sherlock/sher
 #Busca información del sitio web
 alias whatweb="/Users/yorbi/whatweb/whatweb"
 
+#Abrir imagen con feh
+alias view='feh'
+alias view-all='feh -A'
+
+
 
 SPACESHIP_PROMPT_ORDER=(
       user          # Username section
@@ -211,3 +216,12 @@ bindkey "\e[C" delete-char    #fn + derechar
 
 # Accion suprimir
 bindkey "\e[3~" delete-char    #fn + eliminar 
+
+
+# ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+if [ -d "/usr/local/opt/ruby/bin" ]; then
+  export PATH=/usr/local/opt/ruby/bin:$PATH
+  export PATH=`gem environment gemdir`/bin:$PATH
+fi
