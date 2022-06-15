@@ -3,9 +3,9 @@
 [Descarga](https://iterm2.com/downloads.html)
 
 
+<details>
+<summary><b>Configuracion colores iterm</b><br></summary>
 
-
-## Configuracion colores iterm
 
 - Foreground: c7c7c7
 - Background: 333333
@@ -21,11 +21,15 @@
 
 ![Screen Shot 2022-06-12 at 12 50 28](https://user-images.githubusercontent.com/65741972/173246398-c06a731b-9c98-45e9-9947-f2e1f4943063.png)
 
+
+
+
+</details>
+
 ***
 
-## Todas las configuraciones de iterm
-
-
+<details>
+<summary><b>Todas las configuraciones de iterm</b><br></summary>
 
 ![Screen Shot 2022-06-13 at 9 07 33](https://user-images.githubusercontent.com/65741972/173372177-44c7a5d5-0be0-44d5-9f6c-d974adff7e18.png)
 ![Screen Shot 2022-06-13 at 9 07 52](https://user-images.githubusercontent.com/65741972/173372251-bdd5ab5e-ba5f-4296-9d19-de748fa731ae.png)
@@ -35,4 +39,5 @@
 ![Screen Shot 2022-06-13 at 9 08 32](https://user-images.githubusercontent.com/65741972/173372391-49027080-cb7f-4cc3-8b20-ed5267d1f981.png)
 
 
+</details>
 
