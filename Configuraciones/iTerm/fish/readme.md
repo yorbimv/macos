@@ -50,5 +50,12 @@ Para ver los alias creados, basta con dirigirte a
 **/Users/yorbi/.config/fish/functions**
 
 <br>
-
 Los alias tienen la terminación .fish
+
+Consultar la carpeta **functions**
+
+*****
+
+# Intalar plugins en fish
+
+[Busquedas desde terminal ggl](https://github.com/yo-goto/ggl.fish)
