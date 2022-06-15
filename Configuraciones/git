@@ -1,0 +1,27 @@
+******************
+        GIT
+******************
+# Fish
+gc-m =  "git commit -m"
+
+# Fish & Zsh
+gs      =  "git status"
+gbr     =  "git branch"    // gbr ramaNueva
+gbr -b  =  "git checkout -b nuevarama"
+ga      =  "git add"
+gc      =  "git commit -m"
+gp      =  "git push"
+gpll    =  "git pull"    
+gck     =  "git checkout" // Cambiar de rama gck + ramaAcambiar
+
+
+# Fusionar ramas
+# Cambiar a rama en la que se desea fusionar, antes de usar merge
+git merge nombredeRama -m ‘Algun mensaje’
+
+
+
+# Token GitHub
+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
+
+

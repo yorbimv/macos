@@ -146,10 +146,6 @@ alias documents='cd ~/Documents'
 alias downloads='cd ~/Downloads'
 alias github='cd ~/Documents/GitHub'
 
-
-
-
-
 # OneDrive
 alias onedrive='cd ~/OneDrive\ -\ alumnos.cua.uam.mx'
 alias documentoshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/DocumentosHDD'
@@ -157,8 +153,19 @@ alias Documentoshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorb
 alias Imageneshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/ImagenesHDD'
 alias imageneshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/ImagenesHDD'
 
-alias source-zshrc='source /Users/yorbi/.zshrc'
+# Atajos
+alias source-zshrc='cd; source .zshrc'
+alias history-clear='rm $HISTFILE'
+alias zshconfig='cd; code .zshrc'
+alias cp-github='cd; cp .zshrc /Users/yorbi/Documents/GitHub/macos/Configuraciones/iTerm/zsh'
 
+# Alias
+alias alias-cmd='cat ~/Documents/GitHub/alias/cmdFiles'
+alias alias-files='cat ~/Documents/GitHub/alias/files'
+alias alias-view='cat ~/Documents/GitHub/alias/feh'
+alias alias-git='cat ~/Documents/GitHub/alias/git'
+alias alias-ls='cat ~/Documents/GitHub/alias/ls'
+alias alias-mysql='cat ~/Documents/GitHub/alias/mysql'
 
 
 

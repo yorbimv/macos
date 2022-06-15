@@ -1,0 +1,16 @@
+******************
+    carpetas
+******************
+
+# Carpetas
+desktop     =   'cd ~/Desktop'
+documents   =   'cd ~/Documents'
+downloads   =   'cd ~/Downloads'
+github      =   'cd ~/Documents/GitHub'
+
+# OneDrive
+onedrive        =   'cd ~/OneDrive\ 
+documentoshdd   =   'cd ~/OneDrive\.../DocumentosHDD'
+Documentoshdd   =   'cd ~/OneDrive\.../DocumentosHDD'
+Imageneshdd     =   'cd ~/OneDrive\.../ImagenesHDD'
+imageneshdd     =   'cd ~/OneDrive\.../ImagenesHDD'
