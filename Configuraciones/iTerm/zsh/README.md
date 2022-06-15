@@ -57,7 +57,7 @@
 
         - Fuente:
             - [highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-            - [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions.  )  
+            - [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions  )  
             - [fif](https://logico.ar/blog/2019/07/13/fzf-el-buscador-nix)
             - [Web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)
         
