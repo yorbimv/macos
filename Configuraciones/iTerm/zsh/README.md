@@ -52,12 +52,12 @@
     - Web Search
         - Se debe descargar en raiz User/yorbi 
         - ```git clone https://github.com/sinetoami/web-search.git "$ZSH_CUSTOM/plugins/web-search"```
-        -  Agregar en .zshrc, en la sección de plugins
+        -  Agregar **websearch** en el archivo.zshrc, en la sección de plugins
             ![Screen Shot 2022-06-14 at 0 35 11](https://user-images.githubusercontent.com/65741972/173500998-bc01664f-df72-48c8-a334-8d19a007b47c.png)
 
         - Fuente:
             - [highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-            - [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions.  )  
+            - [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions  )  
             - [fif](https://logico.ar/blog/2019/07/13/fzf-el-buscador-nix)
             - [Web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)
         
