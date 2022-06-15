@@ -52,7 +52,7 @@
     - Web Search
         - Se debe descargar en raiz User/yorbi 
         - ```git clone https://github.com/sinetoami/web-search.git "$ZSH_CUSTOM/plugins/web-search"```
-        -  Agregar en .zshrc, en la sección de plugins
+        -  Agregar **websearch** en el archivo.zshrc, en la sección de plugins
             ![Screen Shot 2022-06-14 at 0 35 11](https://user-images.githubusercontent.com/65741972/173500998-bc01664f-df72-48c8-a334-8d19a007b47c.png)
 
         - Fuente:
