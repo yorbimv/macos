@@ -13,7 +13,7 @@
 - Comando para instalar tema, la XXXXX es el nombre del tema
     - ```omf install theme  XXXXX```
 - Elige el tema para ser usado
-    - ```omf theme fox```
+    - ```omf theme xxxxx```
 
 
 
