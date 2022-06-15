@@ -1,6 +1,6 @@
 # iTerm
 
-[Descarga] (https://iterm2.com/downloads.html)
+[Descarga](https://iterm2.com/downloads.html)
 
 
 
