@@ -140,6 +140,27 @@ alias whatweb="/Users/yorbi/whatweb/whatweb"
 alias view='feh'
 alias view-all='feh -A'
 
+# Carpetas
+alias desktop='cd ~/Desktop'
+alias documents='cd ~/Documents'
+alias downloads='cd ~/Downloads'
+alias github='cd ~/Documents/GitHub'
+
+
+
+
+
+# OneDrive
+alias onedrive='cd ~/OneDrive\ -\ alumnos.cua.uam.mx'
+alias documentoshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/DocumentosHDD'
+alias Documentoshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/DocumentosHDD'
+alias Imageneshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/ImagenesHDD'
+alias imageneshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/ImagenesHDD'
+
+alias source-zshrc='source /Users/yorbi/.zshrc'
+
+
+
 
 
 SPACESHIP_PROMPT_ORDER=(
