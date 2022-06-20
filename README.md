@@ -55,9 +55,16 @@ Si los iconos desaparecen de finder realizar lo siguiente
 
 1. Ir a preferencias/extensiones
 2. En la sección de **"All"** y en la sección de **"Finder extensions"**
-- Hay que desactivar todas las casillas que digan **"Finder extensions (gdrive, dropbox,mega,etc)"**
-    ![Screen Shot 2022-06-17 at 9 39 14](https://user-images.githubusercontent.com/65741972/174320220-55207ff0-38af-4558-82a5-09caa86d4c41.png)
-    ![Screen Shot 2022-06-17 at 9 41 28](https://user-images.githubusercontent.com/65741972/174320561-880f2fee-77c8-4637-9eb0-36678ce41183.png)
+ 
+
+
+<details align="center">
+          <summary><b>Picale aqui</b><br></summary>
+          <img src="https://user-images.githubusercontent.com/65741972/174320561-880f2fee-77c8-4637-9eb0-36678ce41183.png">
+          <img src="https://user-images.githubusercontent.com/65741972/174320220-55207ff0-38af-4558-82a5-09caa86d4c41.png"> 
+
+</details>
+  
 
 3. Ejecutar en terminal ```killall Finder```
 4. Habilitar extension solamente de **onedrive**
