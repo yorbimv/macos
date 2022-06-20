@@ -9,13 +9,13 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/yorbi/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="elessar"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -77,9 +77,8 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git
-        web-search
-        oh-my-matrix
+plugins=( git
+          web-search
         )
 
 source $ZSH/oh-my-zsh.sh
@@ -109,6 +108,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 
 # git
 alias gs="git status"
@@ -157,7 +157,7 @@ alias imageneshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/
 alias source-zshrc='cd; source .zshrc'
 alias history-clear='rm $HISTFILE'
 alias zshconfig='cd; code .zshrc'
-alias cp-github='cd; cp .zshrc /Users/yorbi/Documents/GitHub/macos/Configuraciones/iTerm/zsh'
+alias cp-github='cd; cp .zshrc /Users/yorbi/Documents/GitHub/macos/config/iTerm/zsh'
 
 # Alias
 alias alias-cmd='cat ~/Documents/GitHub/alias/cmdFiles'
@@ -170,57 +170,57 @@ alias alias-mysql='cat ~/Documents/GitHub/alias/mysql'
 
 
 
-SPACESHIP_PROMPT_ORDER=(
-      user          # Username section
-      dir           # Current directory section
-      host          # Hostname section
-      git           # Git section (git_branch + git_status)
-      hg            # Mercurial section (hg_branch  + hg_status)
-      exec_time     # Execution time
-      line_sep      # Line break
-      vi_mode       # Vi-mode indicator
-      jobs          # Background jobs indicator
-      exit_code     # Exit code section
-      char          # Prompt character
-    )
-    SPACESHIP_USER_SHOW=always
-    SPACESHIP_PROMPT_ADD_NEWLINE=false
-    SPACESHIP_CHAR_SYMBOL="❯"
-    SPACESHIP_CHAR_SUFFIX=" "
-### Added by Zinit's installer
-if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
-    print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
-    command mkdir -p "$HOME/.zinit" && command chmod g-rwX "$HOME/.zinit"
-    command git clone https://github.com/zdharma-continuum/zinit "$HOME/.zinit/bin" && \
-        print -P "%F{33}▓▒░ %F{34}Installation successful.%f%b" || \
-        print -P "%F{160}▓▒░ The clone has failed.%f%b"
-fi
-
-source "$HOME/.zinit/bin/zinit.zsh"
-autoload -Uz _zinit
-(( ${+_comps} )) && _comps[zinit]=_zinit
-
-# Load a few important annexes, without Turbo
-# (this is currently required for annexes)
-zinit light-mode for \
-    zdharma-continuum/z-a-rust \
-    zdharma-continuum/z-a-as-monitor \
-    zdharma-continuum/z-a-patch-dl \
-    zdharma-continuum/z-a-bin-gem-node
-    zinit light zsh-users/zsh-autosuggestions
-    zinit light zsh-users/zsh-completions
-
-### End of Zinit's installer chunk
-
-
 # ============  fzf ============
 # ctrl + t = buscar archivo
 # ctrl + r = buscar en historial
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # fif Buscador de alguna cadena dentro de algun archivo
@@ -230,7 +230,7 @@ fif() {
 }
 
 # plugins
-  source $(brew --prefix)/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+  # source $(brew --prefix)/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
   source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh  
 
 # Movimientos terminal zsh
@@ -246,10 +246,6 @@ bindkey "\e[C" delete-char    #fn + derechar
 bindkey "\e[3~" delete-char    #fn + eliminar 
 
 
-# ruby
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-
-if [ -d "/usr/local/opt/ruby/bin" ]; then
-  export PATH=/usr/local/opt/ruby/bin:$PATH
-  export PATH=`gem environment gemdir`/bin:$PATH
-fi
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source /Users/yorbi/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
