@@ -177,52 +177,6 @@ alias alias-mysql='cat ~/Documents/GitHub/alias/mysql'
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # fif Buscador de alguna cadena dentro de algun archivo
 fif() {
   if [ ! "$#" -gt 1 ]; then echo "Necesito una cadena para buscar!"; return 1; fi
