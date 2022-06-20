@@ -9,6 +9,16 @@ Configuración de Mac Actual 2022
 ***
 ### Configuraciones iniciales
 
+##### Primeros pasos después de formatear
+
+1. Una vez que cargó todo el sistema, se debe hacer login en icloud drive.
+2. Ir a Preferencias/apple ID/
+3. Prender la palomita de **" Carpetas Escritorio y Documentos"**
+4. Una vez realizado, proceder a configurar **Mail y Fotos**, esperar a que se descargue
+5. Después de 1 hora aprox, empezarán a sincronizarse los documentos de icloud en la Macbook
+
+***
+
 
 ##### Instalar apps de cualquier sitio
  ```sudo spctl --master-disable```
