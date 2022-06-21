@@ -40,3 +40,9 @@ set relativenumber
 set laststatus=2
 set noshowmode
 ~~~
+
+
+## Descargas 
+
+- [Node](https://nodejs.org/en/download/)
+- Tmux ```brew install tmux```
