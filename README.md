@@ -46,7 +46,10 @@ sudo spctl --master-disable
    
 Estas configuraciones vienen a detalle en la carpeta de Configuraciones
 
-3. Descargar **nodejs y tmux** antes para configurar **nvim**
+3. Descargar **nodejs y tmux** para configurar **nvim**
+
+    - [Node](https://nodejs.org/en/download/)
+    - Tmux ```brew install tmux```
 
 ***
 
