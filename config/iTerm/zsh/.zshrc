@@ -48,7 +48,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -77,9 +77,8 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( git
-          web-search
-        )
+plugins=(git
+         web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -110,6 +109,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+
 # git
 alias gs="git status"
 alias gbr="git branch"
@@ -132,7 +132,7 @@ alias mysql-root="mysql -u root -p -h 127.0.0.1"
 
 #Hacking
 #Busca el usuario en varias redes sociales
-alias sherlock="python3 /Users/yorbi/Documents/GitHub/hackingTools/sherlock/sherlock"
+alias sherlock="python3 /Users/yorbi/sherlock/sherlock"
 #Busca información del sitio web
 alias whatweb="/Users/yorbi/whatweb/whatweb"
 
@@ -160,22 +160,17 @@ alias zshconfig='cd; code .zshrc'
 alias cp-github='cd; cp .zshrc /Users/yorbi/Documents/GitHub/macos/config/iTerm/zsh'
 
 # Alias
-alias alias-cmd='cat ~/Documents/GitHub/alias/cmdFiles'
-alias alias-files='cat ~/Documents/GitHub/alias/files'
-alias alias-view='cat ~/Documents/GitHub/alias/feh'
-alias alias-git='cat ~/Documents/GitHub/alias/git'
-alias alias-ls='cat ~/Documents/GitHub/alias/ls'
-alias alias-mysql='cat ~/Documents/GitHub/alias/mysql'
-
-
-
+alias alias-cmd='cat ~/Documents/GitHub/macos/config/iTerm/alias/cmdFiles'
+alias alias-files='cat ~/Documents/GitHub/macos/config/iTerm/alias/files'
+alias alias-view='cat ~/Documents/GitHub/macos/config/iTerm/alias/feh'
+alias alias-git='cat ~/Documents/GitHub/macos/config/iTerm/alias/git'
+alias alias-ls='cat ~/Documents/GitHub/macos/config/iTerm/alias/ls'
+alias alias-mysql='cat ~/Documents/GitHub/macos/config/iTerm/alias/mysql'
 
 # ============  fzf ============
 # ctrl + t = buscar archivo
 # ctrl + r = buscar en historial
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-
 
 # fif Buscador de alguna cadena dentro de algun archivo
 fif() {
@@ -200,6 +195,20 @@ bindkey "\e[C" delete-char    #fn + derechar
 bindkey "\e[3~" delete-char    #fn + eliminar 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /Users/yorbi/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
