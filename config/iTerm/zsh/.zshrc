@@ -134,7 +134,8 @@ alias mysql-root="mysql -u root -p -h 127.0.0.1"
 #Busca el usuario en varias redes sociales
 alias sherlock="python3 /Users/yorbi/sherlock/sherlock"
 #Busca información del sitio web
-alias whatweb="/Users/yorbi/whatweb/whatweb"
+# alias whatweb="/Users/yorbi/whatweb/whatweb"
+alias whatweb="docker run --tty --interactive --rm guidelacour/whatweb \./whatweb"
 
 #Abrir imagen con feh
 alias view='feh'
@@ -157,7 +158,7 @@ alias imageneshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/
 alias source-zshrc='cd; source .zshrc'
 alias history-clear='rm $HISTFILE'
 alias zshconfig='cd; code .zshrc'
-alias cp-github='cd; cp .zshrc /Users/yorbi/Documents/GitHub/macos/config/iTerm/zsh'
+alias cp-zsh-gh='cd; cp .zshrc /Users/yorbi/Documents/GitHub/macos/config/iTerm/zsh'
 
 # Alias
 alias alias-cmd='cat ~/Documents/GitHub/macos/config/iTerm/alias/cmdFiles'
@@ -212,3 +213,6 @@ bindkey "\e[3~" delete-char    #fn + eliminar
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
