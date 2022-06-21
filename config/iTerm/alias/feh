@@ -1,9 +1,0 @@
-******************
-        feh
-******************
-Visualiza imagenes
-
-# Fish & Zsh
-view     =  'feh'
-view-all =  'feh -A'
-
