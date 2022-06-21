@@ -17,6 +17,8 @@ Configuración de Mac Actual 2022
 4. Una vez realizado, proceder a configurar **Mail y Fotos**, esperar a que se descargue
 5. Después de 1 hora aprox, empezarán a sincronizarse los documentos de icloud en la Macbook
 
+
+
 ***
 
 
@@ -44,6 +46,7 @@ sudo spctl --master-disable
    
 Estas configuraciones vienen a detalle en la carpeta de Configuraciones
 
+3. Descargar **nodejs y tmux** antes para configurar **nvim**
 
 ***
 
