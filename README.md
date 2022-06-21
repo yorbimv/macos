@@ -50,6 +50,7 @@ Estas configuraciones vienen a detalle en la carpeta de Configuraciones
 
     - [Node](https://nodejs.org/en/download/)
     - Tmux ```brew install tmux```
+    - [xquarts](https://www.xquartz.org)
 
 ***
 
