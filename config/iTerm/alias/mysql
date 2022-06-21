@@ -1,0 +1,8 @@
+******************
+        mySql
+******************
+# Fish & Zsh
+mysql-start   = 'brew services start mysql'
+mysql-stop    = 'brew services stop mysql'
+mysql-restart = 'brew services restart mysql'
+mysql-root    = 'mysql -u root -p -h 127.0.0.1'
