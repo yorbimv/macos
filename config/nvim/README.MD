@@ -12,7 +12,8 @@
 
 ## Crear init.vim
 
-Se crea en /Users/yorbi/.config/nvim/init.vim, el código siguiente indica que los cambios se aplican a vim y nvim 
+- El código siguiente indica que los cambios se aplican a vim y nvim 
+ - Se crea en /Users/yorbi/.config/nvim/init.vim 
 ~~~
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath=&runtimepath
@@ -107,17 +108,18 @@ En este punto ya se agregaron las configuraciónes, ahora solo falta instalar, p
 
 ***
 
-## Extras
+## Finalizando configuración
 
 Agregar a .vimrc
 
-Agregar toda la configuración del [archivo de github](https://github.com/yorbimv/macos_catalina_config/blob/main/config/nvim/nvim/init.vim) al archivo .vimrc de la mac
+Agregar toda la configuración del [archivo de github](https://github.com/yorbimv/macos_catalina_config/blob/main/config/nvim/nvim/.vimrc) al archivo .vimrc de la mac
 
 
 Listo
 
 
 
+![Captura de Pantalla 2022-06-21 a la(s) 20 46 05](https://user-images.githubusercontent.com/65741972/174925625-97fc5382-409a-430f-9f19-e1faefd0d573.png)
 
 
 
