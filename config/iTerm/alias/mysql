@@ -2,7 +2,14 @@
         mySql
 ******************
 # Fish & Zsh
+
+** Opcion 1
+
 mysql-start   = 'brew services start mysql'
 mysql-stop    = 'brew services stop mysql'
 mysql-restart = 'brew services restart mysql'
 mysql-root    = 'mysql -u root -p -h 127.0.0.1'
+
+** Opcion2
+Desde Preferencias puedes aplicar stop,start
+mysql-root    = '/usr/local/mysql/bin/mysql -u root -p -h 127.0.0.1'
