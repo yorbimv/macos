@@ -60,6 +60,6 @@ Consultar la carpeta **functions**
 
 *****
 
-# Intalar plugins en fish
+## Intalar plugins en fish
 
 [Busquedas desde terminal ggl](https://github.com/yo-goto/ggl.fish)
