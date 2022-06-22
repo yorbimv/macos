@@ -39,10 +39,8 @@ Son los comandos personalizados que podemos usar en fish
 
 ![Screen Shot 2022-06-15 at 2 25 54](https://user-images.githubusercontent.com/65741972/173776084-a2c1f387-3d9d-4309-9eba-b31f7f896575.png)
 
+## Para una APP "Chrome.app..."
 ~~~
-
-
-# Para una APP "Chrome.app..."
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome banana'
 ~~~
 
