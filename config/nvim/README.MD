@@ -83,7 +83,7 @@ call plug#end()
 
 
 colorscheme gruvbox
-jklilet g:gruvbox_contrast_dark = "hard"
+let g:gruvbox_contrast_dark = "hard"
 
 ~~~
 
