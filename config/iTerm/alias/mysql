@@ -1,5 +1,5 @@
 ******************
-        mySql
+        MySql
 ******************
 # Fish & Zsh
 
@@ -12,7 +12,6 @@ mysql-root    = 'mysql -u root -p -h 127.0.0.1'
 
 ** Opcion2
 Desde Preferencias puedes aplicar stop,start
-mysql-root    = '/usr/local/mysql/bin/mysql -u root -p -h 127.0.0.1'
 
 
-pssw = pandolfo
+pssw = pandolfo 
