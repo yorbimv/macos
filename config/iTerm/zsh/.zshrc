@@ -137,12 +137,12 @@ alias sherlock="python3 /Users/yorbi/sherlock/sherlock"
 # alias whatweb="/Users/yorbi/whatweb/whatweb"
 alias whatweb="docker run --tty --interactive --rm guidelacour/whatweb \./whatweb"
 
-#Abrir imagen con feh
+# Abrir imagen con feh
 # alias view='feh'
 # alias view-all='feh -A'
 
 # Abir imagen desde terminal
-alias view ='imgcat'
+# alias view ='imgcat'
 
 # Carpetas
 alias desktop='cd ~/Desktop'
@@ -198,20 +198,6 @@ bindkey "\e[C" delete-char    #fn + derechar
 
 # Accion suprimir
 bindkey "\e[3~" delete-char    #fn + eliminar 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
