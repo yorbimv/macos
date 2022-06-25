@@ -138,8 +138,11 @@ alias sherlock="python3 /Users/yorbi/sherlock/sherlock"
 alias whatweb="docker run --tty --interactive --rm guidelacour/whatweb \./whatweb"
 
 #Abrir imagen con feh
-alias view='feh'
-alias view-all='feh -A'
+# alias view='feh'
+# alias view-all='feh -A'
+
+# Abir imagen desde terminal
+alias view ='imgcat'
 
 # Carpetas
 alias desktop='cd ~/Desktop'
@@ -148,11 +151,12 @@ alias downloads='cd ~/Downloads'
 alias github='cd ~/Documents/GitHub'
 
 # OneDrive
-alias onedrive='cd ~/OneDrive\ -\ alumnos.cua.uam.mx'
-alias documentoshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/DocumentosHDD'
-alias Documentoshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/DocumentosHDD'
-alias Imageneshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/ImagenesHDD'
-alias imageneshdd='cd ~/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/ImagenesHDD'
+alias onedrive='cd /Volumes/HDD/onedrive/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/'
+alias documentoshdd='cd /Volumes/HDD/onedrive/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/DocumentosHDD'
+alias Documentoshdd='cd /Volumes/HDD/onedrive/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/DocumentosHDD'
+alias Imageneshdd='cd /Volumes/HDD/onedrive/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/ImagenesHDD'
+alias imageneshdd='cd /Volumes/HDD/onedrive/OneDrive\ -\ alumnos.cua.uam.mx/MacBook\ Pro\ de\ yorbi/Catalina/ImagenesHDD'
+
 
 # Atajos
 alias source-zshrc='cd; source .zshrc'
@@ -216,3 +220,6 @@ bindkey "\e[3~" delete-char    #fn + eliminar
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
