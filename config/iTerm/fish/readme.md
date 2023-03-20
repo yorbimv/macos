@@ -3,6 +3,7 @@
 1. Instalar fish ```brew install fish```
 2. Instalar omf para instalar temas
 - ```curl -L https://get.oh-my.fish | fish```
+3. Instalar ```brew install md5sha1sum```
 
 **********
 
@@ -19,7 +20,7 @@
 
 [Fuente: OMF](https://ubunlog.com/omf-personaliza-tope-fishshell/)
 
-> En caso de error al ejecutar fish, instalar ```brew install md5sha1sum```
+
 
 
 *********
