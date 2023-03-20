@@ -34,9 +34,14 @@
     - Instalar (**Consultar tutorial**)
         - Plugins
             - ```brew install zsh-syntax-highlighting```
-                - localizar la ruta donde se encuentra la carpeta zsh-syntax-highlighting y escribir la ruta en .zsh
-                   ![Captura de pantalla 2023-03-19 a la(s) 23 38 31](https://user-images.githubusercontent.com/65741972/226255520-1f272b6e-ce44-4b6b-b52d-8b0bbd04a0ef.png)
+                <details>
+                <summary><b>Configuracion</b><br></summary>
+                localizar la ruta donde se encuentra la carpeta zsh-syntax-highlighting y escribir la ruta en .zsh
+                
+                ![Captura de pantalla 2023-03-19 a la(s) 23 47 17](https://user-images.githubusercontent.com/65741972/226257334-ee1077a8-feff-483a-80e4-a8fe98362cc8.png)
 
+                 </details>
+                 
             
             - ```brew install zsh-autosuggestions```
 
