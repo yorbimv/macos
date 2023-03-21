@@ -49,8 +49,9 @@
             - [fzf](https://github.com/junegunn/fzf)
             ~~~
             brew install fzf
-
-            # To install useful key bindings and fuzzy completion:
+            ~~~
+            Agregar este comando de y decirle a todo yes para que fzf quede activo
+            ~~~
             $(brew --prefix)/opt/fzf/install
             ~~~
             - fif (buscador de palabras en archivos)
