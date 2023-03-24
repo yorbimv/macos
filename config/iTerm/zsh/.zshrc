@@ -184,8 +184,8 @@ fif() {
 }
 
 # plugins
-  # source $(brew --prefix)/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-  source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh  
+source /usr/local/Cellar/zsh-syntax-highlighting/0.7.1/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh  
 
 # Movimientos terminal zsh
 # Desplazarse por palabra
