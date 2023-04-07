@@ -17,10 +17,13 @@ gpll    =  "git pull"
 
 #Guarda los cambios para poder cambiar de rama sin commit
 git stash
+
 #Visualiza si hay cambios guardados
 git stash list
+
 #Carga cambios
 git stash pop
+
 #Elimina cambios
 git stash drop
 ***************************************************************
@@ -28,6 +31,7 @@ git stash drop
 
 #Cambia de rama
 git switch rama
+
 #Cambiando de rama master a main
 #-m:move
 a)gbr -m main
@@ -35,8 +39,10 @@ b)git branch -m main
 
 #Crear Nueva rama
 git branch ramaNueva
+
 #Crear y cambia a la nueva rama
 git checkout -b ramaNueva
+
 #Eliminar rama
 git brach -d rama
 
@@ -58,16 +64,20 @@ git log --graph --decorate --all --online
 
 #chekout + nombre de archivo
 git checkout hellogit2.py
+
 #nombre de ID
 git checkout 12xabSAFGE3632
+
 #tag
 git checkout tags/dia_1
 
 ************************************************************
 #fuerza a ir a cierto punto del historial de la rama 
 git reset --hard
+
 # historial completo
 git reflog
+
 #Regresa todo al último estado que se guardó en git
 git reset
 
@@ -75,6 +85,7 @@ git reset
 #Otros
 #Ve los cambios que se han hecho
 git diff
+
 #Agrega tag a un id de la rama
 git tag "Nombre_de_tag"
 
