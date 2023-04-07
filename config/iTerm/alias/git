@@ -37,6 +37,8 @@ b)git branch -m main
 git branch ramaNueva
 #Crear y cambia a la nueva rama
 git checkout -b ramaNueva
+#Eliminar rama
+git brach -d rama
 
 # Fusionar ramas
 # Cambiar a rama en la que se desea fusionar, antes de usar merge
@@ -75,12 +77,6 @@ git reset
 git diff
 #Agrega tag a un id de la rama
 git tag "Nombre_de_tag"
-
-
-
-
-
-
 
 # Token GitHub
 https://github.com/settings/tokens
