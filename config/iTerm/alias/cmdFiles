@@ -10,6 +10,7 @@ cp directorio/ ruta_de_destino/
 
 # ELiminar Directorios
 rm -rf /Carpeta
+rdir /Elimina Carpeta y subcarpetas
 
 # ELiminar Archivos
 rm -r archivo1 archivo2
