@@ -8,9 +8,9 @@ cp -r directorio/ ruta_de_destino/
 # Copiar archivos
 cp directorio/ ruta_de_destino/
 
-# ELiminar Directorios
+# ELiminar Carpeta y subcarpetas
 rm -rf /Carpeta
-rdir /Elimina Carpeta y subcarpetas
+ddir carpeta
 
 # ELiminar Archivos
 rm -r archivo1 archivo2
