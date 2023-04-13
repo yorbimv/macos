@@ -2,9 +2,6 @@
         GIT v1.0
 ******************
 
-https://github.com/yorbimv/dev_notes/tree/main/github
-
-***************************************************************
 | Comando               |                        Ejemplo                         
 | git clone             | git clone    git@github.com:mouredev/hello-git.git     
 | git stash             | Guarda los cambios para poder cambiar de rama sin commit
@@ -27,6 +24,7 @@ git checkout hellogit2.py
 git checkout 12xabSAFGE3632
 # Ir a un tag
 git checkout tags/dia_1
-************************************************************
+
+https://github.com/yorbimv/dev_notes/tree/main/github
 
 
