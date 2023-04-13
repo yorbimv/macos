@@ -13,28 +13,17 @@ gp      =  git push
 gpll    =  git pull    
 
 ***************************************************************
-| Comando       |                        Ejemplo                         
-| git clone     | git clone    git@github.com:mouredev/hello-git.git     
-| git stash     | Guarda los cambios para poder cambiar de rama sin commit
-| git stash list| Visualiza si hay cambios guardados
-| git stash pop | Carga cambios
-| git stash drop| Elimina cambios
-| git tag "tag" | Crea un tag "programa_v1"            
-
-***************************************************************
-# Ramas
-
-# Crear Nueva rama
-git branch ramaNueva
-# Crear y cambia a la nueva rama
-git checkout -b ramaNueva
-# Eliminar rama
-git brach -d rama
-
-# Fusionar ramas
-# Cambiar a rama en la que se desea fusionar, 
-# antes de usar merge
-git merge nombredeRama -m ‘Algun mensaje’
+| Comando               |                        Ejemplo                         
+| git clone             | git clone    git@github.com:mouredev/hello-git.git     
+| git stash             | Guarda los cambios para poder cambiar de rama sin commit
+| git stash list        | Visualiza si hay cambios guardados
+| git stash pop         | Carga cambios
+| git stash drop        | Elimina cambios
+| git tag "tag"         | Crea un tag "programa_v1"            
+| git branch ramaNueva  | Crea una ramaNueva
+| git checkout -b ramaNueva| Crear y cambia a la nueva rama
+| git brach -d rama     | Eliminar rama
+| git merge nombredeRama -m ‘Algun mensaje’ | Fusionar ramas
 
 ***************************************************************
 # checkout
