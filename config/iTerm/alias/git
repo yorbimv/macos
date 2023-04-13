@@ -18,10 +18,13 @@
 ***************************************************************
 # checkout
 # Con este argumento, podemos ir a un punto en específico
+
 # chekout + nombre de archivo
 git checkout hellogit2.py
+
 # nombre de ID
 git checkout 12xabSAFGE3632
+
 # Ir a un tag
 git checkout tags/dia_1
 
