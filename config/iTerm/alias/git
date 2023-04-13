@@ -1,76 +1,51 @@
 ******************
-        GIT
+        GIT v1.0
 ******************
-git init //Inicia git
 
-# Zsh
-gs      =  "git status"
-gbr     =  "git branch"    // gbr ramaNueva
-gsw     =  "git switch"    // gsw rama
-ga      =  "git add"
-gc      =  "git commit -m"
-gp      =  "git push"
-gpll    =  "git pull"    
+https://github.com/yorbimv/dev_notes/tree/main/github
+
+gs      =  git status
+gbr     =  git branch    // gbr ramaNueva
+gsw     =  git switch    // gsw rama
+ga      =  git add
+gc      =  git commit -m
+gp      =  git push
+gpll    =  git pull    
 
 ***************************************************************
-#stash
+| Comando       |                        Ejemplo                         
+| git clone     | git clone    git@github.com:mouredev/hello-git.git     
+| git stash     | Guarda los cambios para poder cambiar de rama sin commit
+| git stash list| Visualiza si hay cambios guardados
+| git stash pop | Carga cambios
+| git stash drop| Elimina cambios
+| git tag "tag" | Crea un tag "programa_v1"            
 
-#Guarda los cambios para poder cambiar de rama sin commit
-git stash
-
-#Visualiza si hay cambios guardados
-git stash list
-
-#Carga cambios
-git stash pop
-
-#Elimina cambios
-git stash drop
 ***************************************************************
-#Ramas
+# Ramas
 
-#Cambia de rama
-git switch rama
-
-#Cambiando de rama master a main
-#-m:move
-a)gbr -m main
-b)git branch -m main
-
-#Crear Nueva rama
+# Crear Nueva rama
 git branch ramaNueva
-
-#Crear y cambia a la nueva rama
+# Crear y cambia a la nueva rama
 git checkout -b ramaNueva
-
-#Eliminar rama
+# Eliminar rama
 git brach -d rama
 
 # Fusionar ramas
-# Cambiar a rama en la que se desea fusionar, antes de usar merge
+# Cambiar a rama en la que se desea fusionar, 
+# antes de usar merge
 git merge nombredeRama -m ‘Algun mensaje’
 
 ***************************************************************
-#logs
-#Visualiza logs
-git log
-git log --graph
-git log --graph --pretty=oneline
-git log --graph --decorate --all --online
+# checkout
+# Con este argumento, podemos ir a un punto en específico
 
-***************************************************************
-#checkout
-#Con este argumento, podemos ir a un punto en específico
-
-#chekout + nombre de archivo
+# chekout + nombre de archivo
 git checkout hellogit2.py
-
-#nombre de ID
+# nombre de ID
 git checkout 12xabSAFGE3632
-
-#tag
+# Ir a un tag
 git checkout tags/dia_1
-
 ************************************************************
 #fuerza a ir a cierto punto del historial de la rama 
 git reset --hard
@@ -81,14 +56,4 @@ git reflog
 #Regresa todo al último estado que se guardó en git
 git reset
 
-***************************************************************
-#Otros
-#Ve los cambios que se han hecho
-git diff
-
-#Agrega tag a un id de la rama
-git tag "Nombre_de_tag"
-
-# Token GitHub
-https://github.com/settings/tokens
 
