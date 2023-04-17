@@ -1,19 +1,27 @@
 ******************
-        GIT v1.0
+        GIT v1.1
 ******************
 
-| Comando               |                        Ejemplo                         
-| git clone             | git clone    git@github.com:mouredev/hello-git.git     
-| git stash             | Guarda los cambios para poder cambiar de rama sin commit
-| git stash list        | Visualiza si hay cambios guardados
-| git stash pop         | Carga cambios
-| git stash drop        | Elimina cambios
-| git tag "tag"         | Crea un tag "programa_v1"            
-| git branch ramaNueva  | Crea una ramaNueva
-| git switch -c ramaNueva| Crea una ramaNueva
-| git checkout -b ramaNueva| Crear y cambia a la nueva rama
-| git brach -d rama     | Eliminar rama
-| git merge nombredeRama -m ‘Algun mensaje’ | Fusionar ramas
+alias gs    = git status
+alias gbr   = git branch
+alias ga    = git add
+alias gc    = git commit -m
+alias gp    = git push
+alias gpll  = git pull
+alias gsw   = git switch
+
+
+git clone                                 | git clone    git@github.com:mouredev/hello-git.git     
+git stash                                 | Guarda los cambios para poder cambiar de rama sin commit
+git stash list                            | Visualiza si hay cambios guardados
+git stash pop                             | Carga cambios
+git stash drop                            | Elimina cambios
+git tag "tag"                             | Crea un tag "programa_v1"            
+git branch ramaNueva                      | Crea una ramaNueva
+git switch -c ramaNueva                   | Crea una ramaNueva
+git checkout -b ramaNueva                 | Crear y cambia a la nueva rama
+git brach -d rama                         | Eliminar rama
+git merge nombredeRama -m ‘Algun mensaje’ | Fusionar ramas
 
 ***************************************************************
 # checkout
