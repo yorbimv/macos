@@ -163,7 +163,6 @@ alias imageneshdd='cd /Volumes/HDD/onedrive/OneDrive\ -\ alumnos.cua.uam.mx/MacB
 
 
 # Atajos
-alias source-zshrc='cd; source .zshrc'
 alias history-clear='rm $HISTFILE'
 alias zshconfig='cd; code .zshrc'
 alias cp-zsh-gh='cd; cp .zshrc /Users/yorbi/Documents/GitHub/macos/config/iTerm/zsh'
@@ -171,7 +170,7 @@ alias cp-zsh-gh='cd; cp .zshrc /Users/yorbi/Documents/GitHub/macos/config/iTerm/
 # Alias
 alias alias-cmd='cat ~/Documents/GitHub/macos/config/iTerm/alias/cmdFiles'
 alias alias-files='cat ~/Documents/GitHub/macos/config/iTerm/alias/files'
-alias alias-view='cat ~/Documents/GitHub/macos/config/iTerm/alias/feh'
+# alias alias-view='cat ~/Documents/GitHub/macos/config/iTerm/alias/feh'
 alias alias-git='cat ~/Documents/GitHub/macos/config/iTerm/alias/git'
 alias alias-ls='cat ~/Documents/GitHub/macos/config/iTerm/alias/ls'
 alias alias-mysql='cat ~/Documents/GitHub/macos/config/iTerm/alias/mysql'
@@ -197,7 +196,7 @@ bindkey "[C" forward-word  #tecla alt + derecha
 
 # Ir al principio & final
 bindkey "\e[D" delete-char    #fn + izq 
-bindkey "\e[C" delete-char    #fn + derechar 
+bindkey "\e[C" delete-char    #fn + derecha 
 
 # Accion suprimir
 bindkey "\e[3~" delete-char    #fn + eliminar 
