@@ -142,7 +142,7 @@ alias whatweb="docker run --tty --interactive --rm guidelacour/whatweb \./whatwe
 # alias view-all='feh -A'
 
 # Abrir imagen desde terminal
-# alias view ='imgcat'
+alias view='imgcat'
 
 # Carpetas
 alias desktop='cd ~/Desktop'
