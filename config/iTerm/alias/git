@@ -20,7 +20,7 @@ git tag "tag"                             | Crea un tag "programa_v1"
 git branch ramaNueva                      | Crea una ramaNueva
 git switch -c ramaNueva                   | Crea una ramaNueva
 git checkout -b ramaNueva                 | Crear y cambia a la nueva rama
-git brach -d rama                         | Eliminar rama
+git branch -d rama                         | Eliminar rama
 git merge nombredeRama -m ‘Algun mensaje’ | Fusionar ramas
 
 ***************************************************************
