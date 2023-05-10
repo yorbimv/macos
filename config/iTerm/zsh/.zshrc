@@ -141,7 +141,7 @@ alias whatweb="docker run --tty --interactive --rm guidelacour/whatweb \./whatwe
 # alias view='feh'
 # alias view-all='feh -A'
 
-# Abir imagen desde terminal
+# Abrir imagen desde terminal
 # alias view ='imgcat'
 
 # Carpetas
@@ -167,7 +167,7 @@ alias cp-zsh-gh='cd; cp .zshrc /Users/yorbi/Documents/GitHub/macos/config/iTerm/
 # Alias
 alias alias-cmd='cat ~/Documents/GitHub/macos/config/iTerm/alias/cmdFiles'
 alias alias-files='cat ~/Documents/GitHub/macos/config/iTerm/alias/files'
-alias alias-view='cat ~/Documents/GitHub/macos/config/iTerm/alias/feh'
+# alias alias-view='cat ~/Documents/GitHub/macos/config/iTerm/alias/feh'
 alias alias-git='cat ~/Documents/GitHub/macos/config/iTerm/alias/git'
 alias alias-ls='cat ~/Documents/GitHub/macos/config/iTerm/alias/ls'
 alias alias-mysql='cat ~/Documents/GitHub/macos/config/iTerm/alias/mysql'
