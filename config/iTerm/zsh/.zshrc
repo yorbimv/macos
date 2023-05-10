@@ -146,6 +146,7 @@ alias view='imgcat'
 
 # Carpetas
 alias desktop='cd ~/Desktop'
+alias Escritorio='cd ~/Desktop'
 alias documents='cd ~/Documents'
 alias downloads='cd ~/Downloads'
 alias github='cd ~/Documents/GitHub'
