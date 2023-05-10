@@ -78,7 +78,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-         web-search)
+        web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,7 +108,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
+#comandos
+alias ddir="rm -rf"
 
 # git
 alias gs="git status"
@@ -116,6 +117,8 @@ alias gbr="git branch"
 alias ga="git add"
 alias gc="git commit -m"
 alias gp="git push"
+alias gpll="git pull"
+alias gsw="git switch"
 
 #lsd
 alias ls='lsd'
@@ -141,12 +144,12 @@ alias whatweb="docker run --tty --interactive --rm guidelacour/whatweb \./whatwe
 # alias view='feh'
 # alias view-all='feh -A'
 
-# Abrir imagen desde terminal
+# Abir imagen desde terminal
 alias view='imgcat'
 
 # Carpetas
 alias desktop='cd ~/Desktop'
-alias Escritorio='cd ~/Desktop'
+alias escritorio='cd ~/Desktop'
 alias documents='cd ~/Documents'
 alias downloads='cd ~/Downloads'
 alias github='cd ~/Documents/GitHub'
@@ -168,7 +171,7 @@ alias cp-zsh-gh='cd; cp .zshrc /Users/yorbi/Documents/GitHub/macos/config/iTerm/
 # Alias
 alias alias-cmd='cat ~/Documents/GitHub/macos/config/iTerm/alias/cmdFiles'
 alias alias-files='cat ~/Documents/GitHub/macos/config/iTerm/alias/files'
-# alias alias-view='cat ~/Documents/GitHub/macos/config/iTerm/alias/feh'
+alias alias-view='cat ~/Documents/GitHub/macos/config/iTerm/alias/feh'
 alias alias-git='cat ~/Documents/GitHub/macos/config/iTerm/alias/git'
 alias alias-ls='cat ~/Documents/GitHub/macos/config/iTerm/alias/ls'
 alias alias-mysql='cat ~/Documents/GitHub/macos/config/iTerm/alias/mysql'
@@ -185,9 +188,8 @@ fif() {
 }
 
 # plugins
-source /usr/local/Cellar/zsh-syntax-highlighting/0.7.1/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh  
-
+  source /usr/local/Cellar/zsh-syntax-highlighting/0.7.1/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+  source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Movimientos terminal zsh
 # Desplazarse por palabra
 bindkey "[D" backward-word #tecla alt + izq
@@ -209,4 +211,3 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
