@@ -23,4 +23,13 @@ En caso de que no se ejecute Vs Code desde terminal con ```code```
    > Ahora puede encontrar esta opción como "Shell Command : Install code in PATH"
    
    > Dar click e inicia instalación de PATH
-   
+
+
+***
+
+Configuraciones VS Code
+
+1. Presionar cmd + "," para acceder a configuración
+2. Escribir las funciones que falten.
+
+
