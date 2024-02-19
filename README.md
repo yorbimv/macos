@@ -1,6 +1,6 @@
 # MacOs Catalina Config
 
-Configuración de Mac Actual 2022
+Configuración de Mac Ventura 2024
 
 - Apps Instaladas
 - Configuraciones 
@@ -11,12 +11,15 @@ Configuración de Mac Actual 2022
 
 ##### Primeros pasos después de formatear
 
-1. Una vez que cargó todo el sistema, se debe hacer login en icloud drive.
-2. Ir a Preferencias/apple ID/
-3. Prender la palomita de **" Carpetas Escritorio y Documentos"**
-4. Una vez realizado, proceder a configurar **Mail y Fotos**, esperar a que se descargue
-5. Después de 1 hora aprox, empezarán a sincronizarse los documentos de icloud en la Macbook
-
+1. Actualizar Sistema
+2. Login en icloud
+2. Ir a Configuración de Sistema/apple ID/
+    -   En el apartado de iCloud
+    -   Prender la palomita de **" Carpetas Escritorio y Documentos"**
+4. Una vez realizado, proceder a configurar **Mail y Fotos**
+5. Se sincronizará todos los archivos.
+    -   Esperar unas horas a que se descargue
+    -   Reiniciar Euipo y ya debe aparecer los archivos
 
 
 ***
