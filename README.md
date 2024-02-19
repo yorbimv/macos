@@ -1,4 +1,4 @@
-# MacOs Catalina Config
+# MacOs Ventura Config
 
 Configuración de Mac Ventura 2024
 
