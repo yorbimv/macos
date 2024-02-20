@@ -1,6 +1,6 @@
 # MacOs Catalina Config
 
-Configuración de Mac Ventura 2024
+Configuración de Mac  2024
 
 - Apps Instaladas
 - Configuraciones 
