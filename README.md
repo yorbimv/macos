@@ -1,4 +1,4 @@
-# MacOs Catalina Config
+# MacOs Monterrey Config
 
 Configuración de Mac  2024
 
