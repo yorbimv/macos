@@ -10,11 +10,11 @@
 <p align="center">
   <a href="https://github.com/yorbimv/macos">Inicio</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/yorbimv/macos/tree/monterrey/Configuraciones">Configuraciones</a>
+  <a href="https://github.com/yorbimv/macos/tree/main/Configuraciones">Configuraciones</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/yorbimv/macos/tree/monterrey/Apps">Apps</a>
+  <a href="https://github.com/yorbimv/macos/tree/main/Apps">Apps</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/yorbimv/macos/tree/monterrey/Soluciones">Soluciones</a>
+  <a href="https://github.com/yorbimv/macos/tree/main/Soluciones">Soluciones</a>
 </p>
 
 ---
