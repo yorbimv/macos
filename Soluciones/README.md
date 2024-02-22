@@ -19,7 +19,9 @@
 
 ---
 
-onedrive
+# Soluciones a posibles errores
+
+#### onedrive
 
 - Si los iconos desaparecen de finder realizar lo siguiente
 
