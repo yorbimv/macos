@@ -77,14 +77,14 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git
-        web-search)
+plugins=( git
+          web-search)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
 # export MANPATH="/usr/local/man:$MANPATH"
+
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -135,10 +135,10 @@ alias mysql-root="mysql -u root -p -h 127.0.0.1"
 
 #Hacking
 #Busca el usuario en varias redes sociales
-alias sherlock="python3 /Users/yorbi/sherlock/sherlock"
+alias sherlock="cd; cd sherlock; python3 sherlock"
 #Busca información del sitio web
-# alias whatweb="/Users/yorbi/whatweb/whatweb"
-alias whatweb="docker run --tty --interactive --rm guidelacour/whatweb \./whatweb"
+alias whatweb="cd; cd WhatWeb-0.5.5/; ./whatweb"
+#alias whatweb="docker run --tty --interactive --rm guidelacour/whatweb \./whatweb"
 
 # Abrir imagen con feh
 # alias view='feh'
@@ -187,7 +187,7 @@ fif() {
 }
 
 # plugins
-  source /usr/local/Cellar/zsh-syntax-highlighting/0.7.1/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+  source /usr/local/Cellar/zsh-syntax-highlighting/0.8.0/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
   source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Movimientos terminal zsh
 # Desplazarse por palabra
@@ -201,8 +201,6 @@ bindkey "\e[C" delete-char    #fn + derecha
 # Accion suprimir
 bindkey "\e[3~" delete-char    #fn + eliminar 
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
@@ -210,3 +208,18 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+
+# Ruby
+#En caso de tener conflictos en cambiar la version de ruby
+#Comentar la sig linea export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:$HOME/.rvm/bin"
+# Customize yor needs...
+export PATH=$HOME/.rbenv/bin:/usr/local/bin:$HOME/.bin:$PATH
+# load rbenv automatically
+eval "$(rbenv init - zsh)"
+
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="/usr/local/opt/ruby/bin:$PATH"

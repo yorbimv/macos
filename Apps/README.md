@@ -60,5 +60,18 @@
 #### Personalización
 
 - **[Tutorial 1: zsh](https://github.com/yorbimv/macos/tree/main/config/iTerm/zsh)**
+- **[Tutorial: Herramienteas Hacking](https://github.com/yorbimv/macos/tree/main/config/iTerm/hacking)**
 
 ---
+
+# Visual Studio
+
+IDE para Desarrollo
+
+- **[Tutorial: VsCode](https://github.com/yorbimv/macos/tree/main/config/VsCode)**
+
+---
+
+# NVIM
+
+- **[Tutorial: NVIM](https://github.com/yorbimv/macos/tree/main/config/nvim)**
