@@ -23,4 +23,39 @@ Configuraciones VS Code
 1. Presionar cmd + "," para acceder a configuración
 2. Escribir las funciones que falten.
 
-![Captura de pantalla](<Captura de pantalla 2024-02-19 a la(s) 0.29.44-1.png>)
+````
+{
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorCustomizations": {},
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontVariations": false,
+  "editor.fontLigatures": false,
+  "editor.cursorBlinking": "expand",
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "git.openRepositoryInParentFolders": "always",
+  "workbench.colorTheme": "One Dark Pro Mix",
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": false,
+  "indenticator.width": 1,
+  "indenticator.color.dark": "rgba (255,255,255,0.1",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.matchBrackets": "never",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command"
+  ]
+}
+````
