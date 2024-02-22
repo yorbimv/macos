@@ -1,0 +1,42 @@
+******************
+        GIT v1.1
+******************
+
+alias gs    = git status
+alias gbr   = git branch
+alias ga    = git add
+alias gc    = git commit -m
+alias gp    = git push
+alias gpll  = git pull
+alias gsw   = git switch
+
+
+git clone                                 | git clone    git@github.com:mouredev/hello-git.git     
+git stash                                 | Guarda los cambios para poder cambiar de rama sin commit
+git stash list                            | Visualiza si hay cambios guardados
+git stash pop                             | Carga cambios
+git stash drop                            | Elimina cambios
+git tag "tag"                             | Crea un tag "programa_v1"            
+git branch ramaNueva                      | Crea una ramaNueva
+git switch -c ramaNueva                   | Crea una ramaNueva
+git checkout -b ramaNueva                 | Crear y cambia a la nueva rama
+git branch -d rama                         | Eliminar rama
+git merge nombredeRama -m ‘Algun mensaje’ | Fusionar ramas
+
+***************************************************************
+# checkout
+# Con este argumento, podemos ir a un punto en específico
+
+# chekout + nombre de archivo
+git checkout hellogit2.py
+
+# nombre de ID
+git checkout 12xabSAFGE3632
+
+# Ir a un tag
+git checkout tags/dia_1
+
+Mas info
+https://github.com/yorbimv/dev_notes/tree/main/github
+
+
