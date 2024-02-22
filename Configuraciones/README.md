@@ -25,7 +25,7 @@
 
 Una vez realizado la sección inicio, continuar con lo siguiente:
 
-**[Lista completa de apps](https://link-url-here.org)**
+**[Lista completa de apps](https://github.com/yorbimv/macos/tree/monterrey/Apps/ListaApps)**
 
    <details>
           <summary><b>Apps de la appstore</b><br></summary>
