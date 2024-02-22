@@ -17,7 +17,9 @@
   <a href="https://github.com/yorbimv/macos/tree/main/Soluciones">Soluciones</a>
 </p>
 
----# Configuraciones VSCODE
+---
+
+#Configuraciones VSCODE
 
 1. Descargar de la página oficial [VSCODE](https://code.visualstudio.com/download)
 2. Iniciar sesión con github
