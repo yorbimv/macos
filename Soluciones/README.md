@@ -40,12 +40,15 @@
 ## </details>
 
 La siguiente lista son todas aquellas apps que necesitan
-Estas configuraciones vienen a detalle en la carpeta de Configuraciones
 
-3. Descargar **nodejs y tmux** para configurar **nvim**
+Estas configuraciones vienen a detalle en la carpeta de Configuraciones
+- [nvim](https://github.com/yorbimv/macos/tree/main/config/nvim)
+  
+Descargar **nodejs y tmux** para configurar **nvim**
 
    - [Node](https://nodejs.org/en/download/)
    - Tmux `brew install tmux`
    - [xquarts](https://www.xquartz.org)
+   
 
 ---
