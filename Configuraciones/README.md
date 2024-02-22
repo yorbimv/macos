@@ -10,11 +10,11 @@
 <p align="center">
   <a href="https://github.com/yorbimv/macos">Inicio</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/yorbimv/macos/tree/monterrey/Configuraciones">Configuraciones</a>
+  <a href="https://github.com/yorbimv/macos/tree/main/Configuraciones">Configuraciones</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/yorbimv/macos/tree/monterrey/Apps">Apps</a>
+  <a href="https://github.com/yorbimv/macos/tree/main/Apps">Apps</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/yorbimv/macos/tree/monterrey/Soluciones">Soluciones</a>
+  <a href="https://github.com/yorbimv/macos/tree/main/Soluciones">Soluciones</a>
 </p>
 
 ---
@@ -25,7 +25,7 @@
 
 Una vez realizado la sección inicio, continuar con lo siguiente:
 
-**[Lista completa de apps](https://github.com/yorbimv/macos/tree/monterrey/Apps/ListaApps)**
+**[Lista completa de apps](https://github.com/yorbimv/macos/blob/main/Apps/ListaApps.txt)**
 
    <details>
           <summary><b>Apps de la appstore</b><br></summary>
