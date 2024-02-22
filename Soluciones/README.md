@@ -8,9 +8,9 @@
 ---
 
 <p align="center">
-  <a href="">Inicio</a>
+  <a href="https://github.com/yorbimv/macos">Inicio</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#https://github.com/yorbimv/macos/tree/monterrey/Configuraciones">Configuraciones</a>
+  <a href="https://github.com/yorbimv/macos/tree/monterrey/Configuraciones">Configuraciones</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/yorbimv/macos/tree/monterrey/Apps">Apps</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
