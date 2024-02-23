@@ -59,6 +59,12 @@
 
 #### Personalización
 
+- Instalar lsd desde terminal
+
+  ```
+  brew install lsd
+  ```
+
 - **[Tutorial 1: zsh](https://github.com/yorbimv/macos/tree/main/config/iTerm/zsh)**
 - **[Tutorial: Herramienteas Hacking](https://github.com/yorbimv/macos/tree/main/config/iTerm/hacking)**
 
