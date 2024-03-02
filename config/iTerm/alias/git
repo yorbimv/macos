@@ -24,6 +24,11 @@ git checkout -b ramaNueva                 | Crear y cambia a la nueva rama
 git branch -d rama                        | Eliminar rama
 git merge nombredeRama -m ‘Algun mensaje’ | Fusionar ramas
 
+Comandos git log (gráficas)
+git log --graph --pretty=oneline
+git log --all --graph --decorate --oneline	
+
+
 ***************************************************************
 # checkout
 # Con este argumento, podemos ir a un punto en específico
