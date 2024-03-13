@@ -24,6 +24,16 @@ mv * /Ruta
 mv archivo /Ruta/nuevonombre
 mv archivo.txt nuevonombre.txt
 
+# Archivos Comprimidos
+#Crear archive_name.tar
+tar cd archive_name.tar files
+#Extrae archivos
+tar xf archive_name.tar
+#Crea un zip
+gzip file_name
+#Descomprime  zip
+gunzip file.gz
+
 ------------------------------------------------
 
 # zsh
