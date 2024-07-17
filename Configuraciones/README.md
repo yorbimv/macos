@@ -80,6 +80,6 @@ Una vez realizado la sección inicio, continuar con lo siguiente:
 - Una vez generado el token se usará como password en la terminal
 - Con eso ya se tendra iniciada la sesión de Github en la terminal
 
-name token: Macbook Pro iTerm
-user: yorbimv
-passw: token
+**name token:** Macbook Pro iTerm
+**user:** yorbimv
+**passw:** token
