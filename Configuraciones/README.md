@@ -71,3 +71,15 @@ Una vez realizado la sección inicio, continuar con lo siguiente:
 
 - Visualización y agrupación por clase
 - Barra lateral
+
+---
+
+### Configuración Github en iTerm
+
+- Ir a configuración de [Github](https://github.com/settings/tokens)
+- Una vez generado el token se usará como password en la terminal
+- Con eso ya se tendra iniciada la sesión de Github en la terminal
+
+name token: Macbook Pro iTerm
+user: yorbimv
+passw: token
