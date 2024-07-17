@@ -61,6 +61,8 @@
            <details>
            <summary><b>Configuracion</b><br></summary>
            localizar la ruta donde se encuentra la carpeta zsh-syntax-highlighting y escribir la ruta en .zsh
+           Ruta por default
+           -  /usr/local/Cellar/zsh-syntax-highlighting/0.8.0/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
            
            ![Captura de pantalla 2023-03-19 a la(s) 23 47 17](https://user-images.githubusercontent.com/65741972/226257334-ee1077a8-feff-483a-80e4-a8fe98362cc8.png)
 
