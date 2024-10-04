@@ -46,3 +46,10 @@ sudo spctl --master-disable
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+---
+
+##### Siguiente paso
+
+Ir a
+<a href="https://github.com/yorbimv/macos/tree/main/Configuraciones">Configuraciones</a>
