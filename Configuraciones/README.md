@@ -65,7 +65,7 @@ Una vez realizado la sección inicio, continuar con lo siguiente:
 - Configurar trackpad
 - Configurar Dock
 - Configurar Batería
-- Configurar Protecto de Pantalla
+- Configurar Protector de Pantalla
 
 #### Finder
 
