@@ -23,16 +23,18 @@
 
 #### Whatweb
 
-**Ojo !!**
+Instalación:
 
+- Descargar [whatweb](https://github.com/urbanadventurer/WhatWeb)
+- Copiar la carpeta whatweb en Users/yorbi
 - Se debe instalar ruby para usarse
   `brew install ruby`
 - Dentro de la Carpeta Whatweb se debe ejecutar
 
-  - `make install`
-  - `gem install bundler `
+  - ~~`make install`~~
+  - `bundler install  `
 
-- Una vez que funcione, mover la carpeta de whatweb a raiz `yorbimv`
+- ~~Una vez que funcione, mover la carpeta de whatweb a raiz `yorbimv`~~
 
 **Tutorial Completo**
 `https://github.com/urbanadventurer/WhatWeb/wiki/Installation`
@@ -72,23 +74,36 @@ Fuente : [Docker whatweb](https://hub.docker.com/r/guidelacour/whatweb/)
 
 Es una herramienta que arroja los resultados de los nick en toda la web
 
+Instalación:
+
+- Descargar desde terminal con brew
+
+`brew install sherlock`
+
 Para usarlo:
 
-```
-python3 sherlock user123
-```
+`usage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT] [--output OUTPUT] [--tor] [--unique-tor] [--csv] [--xlsx] [--site SITE_NAME] [--proxy PROXY_URL]
+                [--dump-response] [--json JSON_FILE] [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color] [--browse] [--local] [--nsfw]
+                USERNAMES [USERNAMES ...]
+sherlock: error: the following arguments are required: USERNAMES`
+
+#### Ejemplo
+
+`$ sherlock arigameplays`
 
 ## Descarga
 
-2. [sherlock](https://github.com/sherlock-project/sherlock)
+- `brew install sherlock`(Recomendado)
+- Desde github [sherlock](https://github.com/sherlock-project/sherlock)
 
-```
-# clone the repo
-$ git clone https://github.com/sherlock-project/sherlock.git
+#### clone the repo
 
-# change the working directory to sherlock
-$ cd sherlock
+`$ git clone https://github.com/sherlock-project/sherlock.git`
 
-# install the requirements
-$ python3 -m pip install -r requirements.txt
-```
+#### change the working directory to sherlock
+
+`$ cd sherlock`
+
+#### install the requirements
+
+`$ python3 -m pip install -r requirements.txt`
