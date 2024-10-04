@@ -72,10 +72,36 @@ Una vez realizado la sección inicio, continuar con lo siguiente:
 - Visualización y agrupación por clase
 - Barra lateral
 
+#### Visual Studio
+
+- Para abrir VScode desde la terminal, abrir la Paleta de Comandos de VSCode con las teclas `Cmd ⌘ + Shift ⇧ + P`
+- Escribir `Shell `y escoger la opción Shell Command: Install ‘code’ command in PATH
+
+#### iTerm
+
+Instalación de comandos básicos
+
+tree
+`brew install tree`
+
+```
+ usage: tree [-acdfghilnpqrstuvxACDFJQNSUX] [-L level [-R]] [-H  baseHREF]
+	[-T title] [-o filename] [-P pattern] [-I pattern] [--gitignore]
+	[--gitfile[=]file] [--matchdirs] [--metafirst] [--ignore-case]
+	[--nolinks] [--hintro[=]file] [--houtro[=]file] [--inodes] [--device]
+	[--sort[=]<name>] [--dirsfirst] [--filesfirst] [--filelimit #] [--si]
+	[--du] [--prune] [--charset[=]X] [--timefmt[=]format] [--fromfile]
+	[--fromtabfile] [--fflinks] [--info] [--infofile[=]file] [--noreport]
+	[--version] [--help] [--] [directory ...]
+```
+
 ---
 
 ### Configuración Github en iTerm
 
+- Ir a cualquier carpeta de Github para hacer login
+- Ir a **/Users/yorbi/Documents/GitHub/macos**
+- realizar un cambio y solicitará las credenciales
 - Ir a configuración de [Github](https://github.com/settings/tokens)
 - Una vez generado el token se usará como password en la terminal
 - Con eso ya se tendra iniciada la sesión de Github en la terminal
@@ -83,3 +109,7 @@ Una vez realizado la sección inicio, continuar con lo siguiente:
   - **name token:** Macbook Pro iTerm
   - **user:** yorbimv
   - **passw:** token
+
+---
+
+Para todas la configuraciones restantes ir a [Config](https://github.com/yorbimv/macos/tree/main/config)
