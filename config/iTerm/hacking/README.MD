@@ -60,11 +60,7 @@ Si no se puede ejecutar whatweb, intentar con docker
   docker run --tty --interactive --rm guidelacour/whatweb \./whatweb www.youtube.com
   ```
 - Ahora crear un alias en zsh y fish para que se ejecute así:
-  - ```
-        whatweb www.pagina.com
-        ~~~
-    <br>
-    ```
+  `whatweb www.pagina.com `
 
 Fuente : [Docker whatweb](https://hub.docker.com/r/guidelacour/whatweb/)
 
