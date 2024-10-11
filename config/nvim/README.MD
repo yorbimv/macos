@@ -1,4 +1,5 @@
-# Tutorial nvim
+# Tutorial nvim v2.0
+
 
 [Udemy](https://www.udemy.com/course/vim-aumenta-tu-velocidad-de-desarrollo)
 
@@ -52,8 +53,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 2. Editar nuevamente **.vimrc** y agregar
 
-```
-
+```khhhhhjjj
 set number
 set mouse=a
 set numberwidth=1
