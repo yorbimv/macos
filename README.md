@@ -1,7 +1,7 @@
 # MacOs Sonoma - Inicio
 
 <p align="center">
-<img width="50%" height="50%" src="https://1000marcas.net/wp-content/uploads/2024/02/macOS-Sonoma-2023-1.png"/>
+<img width="50%" height="50%" src="https://ibb.co/zTZr2MMg"/>
 </a>
 </p>
 
