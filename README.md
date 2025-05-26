@@ -1,7 +1,7 @@
 # MacOs Sonoma - Inicio
 
 <p align="center">
-<img width="50%" height="50%" src="https://drive.google.com/file/d/1gJeKyO32RPLpi4MXYSnDOno2mCkkmo1a/view?usp=sharing"/>
+<img width="50%" height="50%" src="https://1000marcas.net/macos-logo/"/>
 </a>
 </p>
 
