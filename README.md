@@ -1,7 +1,7 @@
 # MacOs Sonoma - Inicio
 
 <p align="center">
-<img width="50%" height="50%" src="https://ibb.co/zTZr2MMg"/>
+<img width="50%" height="50%" src="https://i.ibb.co/0Rrc977L/sonoma-logo.png"/>
 </a>
 </p>
 
