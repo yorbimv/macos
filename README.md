@@ -1,7 +1,8 @@
 # MacOs Sonoma - Inicio
 
 <p align="center">
-<img width="50%" height="50%" src="https://i.ibb.co/0Rrc977L/sonoma-logo.png"/>
+<img width="50%" height="50%" src="https://cambiodigital-ol.com/wp-content/uploads/2023/06/mac-OS_Sonomajpg-696x392.jpg"/>
+
 </a>
 </p>
 
