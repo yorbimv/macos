@@ -120,14 +120,9 @@ Instalación de comandos básicos
 
 - Ir a cualquier carpeta de Github para hacer login
 - Ejemplo:
-  - Ir a **/Users/yorbi/Documents/GitHub/macos**
-    - realizar un cambio y solicitará las credenciales
-- Ir a configuración de [Github](https://github.com/settings/tokens)
-
-  - Una vez generado el token se usará como password en la terminal
-
-    - Con eso ya se tendra iniciada la sesión de Github en la terminal
-
+  - Ir a `/Users/yorbi/Documents/GitHub/macos`
+    - Realizar un cambio y solicitará las credenciales
+- Ir a configuración de [Github](https://github.com/settings/tokens) para ingresar token como password
   - **name token:** Macbook Pro iTerm
   - **user:** yorbimv
   - **passw:** token
