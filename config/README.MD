@@ -1,7 +1,7 @@
-# MacOs Sonoma - Configuraciones
+# macOS Sonoma – Configuraciones
 
 <p align="center">
-<img width="50%" height="50%" src="https://cambiodigital-ol.com/wp-content/uploads/2023/06/mac-OS_Sonomajpg-696x392.jpg"/>
+  <img width="50%" height="50%" src="https://cambiodigital-ol.com/wp-content/uploads/2023/06/mac-OS_Sonomajpg-696x392.jpg" alt="macOS Sonoma"/>
 </p>
 
 ---
@@ -18,18 +18,31 @@
 
 ---
 
-# Configuraciones
+## Configuraciones
 
-### Configuracion del Sistema
+### ⚙️ Configuración del Sistema
 
-### Fonts
+Ajustes básicos y avanzados del sistema para optimizar el entorno macOS Sonoma.
 
-Descarga fuentes de texto compatibles para terminal
+### 🔤 Fonts
 
-### iTerm
+- Descarga e instalación de fuentes compatibles para desarrollo.
+- Fuentes recomendadas para terminal e IDEs.
 
-Tutorial para instalar todas las configuraciones visuales y desarrollo
+### 💻 iTerm
 
-### nVim
+- Tutorial completo para personalizar iTerm2.
+- Instalación de temas, colores, y fuentes Powerline.
+- Integración con Zsh + Oh My Zsh.
 
-### VsCode
+### 📘 Neovim (nVim)
+
+- Configuración inicial de `nvim`.
+- Plugins útiles para desarrollo.
+- Integración con lenguajes y terminal.
+
+### 🖥️ Visual Studio Code (VSCode)
+
+- Extensiones esenciales para macOS.
+- Configuración de temas y atajos.
+- Sincronización de configuraciones entre equipos.
