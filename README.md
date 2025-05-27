@@ -18,8 +18,6 @@
 
 ---
 
-**Actualizacion 25 mayo 2025**
-
 ### Primeros pasos después de formatear
 
 **Ejecutar OpenCore-Patcher**
@@ -63,3 +61,5 @@ sudo spctl --master-disable
 
 Ir a
 <a href="https://github.com/yorbimv/macos/tree/main/Configuraciones">Configuraciones</a>
+
+**Actualizacion 25 mayo 2025**
