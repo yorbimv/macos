@@ -1,22 +1,120 @@
-# MacOs Monterrey Config
+# Configuraciones y Personalizaciones - macOS Sonoma
 
-<p align="center">
-<img width="50%" height="50%" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/245f4571-14d4-4069-90a7-259b2971229f/del3rk1-177dea3e-01d6-4c32-bcfd-8927b7bc8364.png/v1/fill/w_894,h_894/macos_monterey_logo_by_protheme_del3rk1-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQxNCIsInBhdGgiOiJcL2ZcLzI0NWY0NTcxLTE0ZDQtNDA2OS05MGE3LTI1OWIyOTcxMjI5ZlwvZGVsM3JrMS0xNzdkZWEzZS0wMWQ2LTRjMzItYmNmZC04OTI3YjdiYzgzNjQucG5nIiwid2lkdGgiOiI8PTE0MTUifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.zIDzzMJ61pgO0SZB6ZHXAiqpfYh9um24O5LScO5a3pE"/>
-</a>
-</p>
+Esta carpeta contiene todas las configuraciones y personalizaciones necesarias para dejar tu entorno macOS Sonoma listo después de formatear.
 
 ---
 
-<p align="center">
-  <a href="https://github.com/yorbimv/macos">Inicio</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/yorbimv/macos/tree/main/Configuraciones">Configuraciones</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/yorbimv/macos/tree/main/Apps">Apps</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/yorbimv/macos/tree/main/Soluciones">Soluciones</a>
-</p>
+## Índice
+
+- [iTerm](#iterm)
+- [VSCode](#vscode)
+- [Zsh](#zsh)
+- [Fish](#fish)
+- [Oh My Zsh](#oh-my-zsh)
+- [Neovim (NVIM)](#neovim-nvim)
+- [Fonts](#fonts)
 
 ---
 
-En este apartado selecciona cada carpeta para ver su configuración
+## iTerm
+
+### Requisitos
+
+Descarga e instala iTerm2 desde su sitio oficial:  
+[iTerm2 Downloads](https://iterm2.com/downloads.html)
+
+### Configuración inicial
+
+- Colores recomendados:
+
+  | Elemento         | Color   |
+  | ---------------- | ------- |
+  | Foreground       | #c7c7c7 |
+  | Background       | #333333 |
+  | Bold             | #feffff |
+  | Links            | #005bbb |
+  | Selection        | #c1ddff |
+  | Selected Text    | #000000 |
+  | Badge            | #ff2600 |
+  | Minimum Contrast | 50      |
+
+- Configura estas opciones desde la sección **Preferences > Profiles > Colors**.
+
+### Personalización
+
+- Instala `lsd` para una mejor experiencia visual en el terminal:
+
+  ```bash
+  brew install lsd
+  ```
+
+- Configuraciones y scripts relacionados:
+
+  - [Tutorial iTerm + Zsh](https://github.com/yorbimv/macos/tree/main/config/iTerm/zsh)
+  - [Herramientas para hacking en iTerm](https://github.com/yorbimv/macos/tree/main/config/iTerm/hacking)
+
+---
+
+## VSCode
+
+- Configuración recomendada para desarrollo
+- Tutorial de configuración y personalización:  
+  [VSCode Config](https://github.com/yorbimv/macos/tree/main/config/VsCode)
+
+---
+
+## Zsh
+
+- Personaliza tu shell Zsh con temas y plugins
+- Tutorial y configuración detallada:  
+  [Zsh Config](https://github.com/yorbimv/macos/tree/main/config/zsh)
+
+---
+
+## Fish Shell
+
+- Configuración para Fish shell y sus plugins
+- Tutorial y scripts:  
+  [Fish Config](https://github.com/yorbimv/macos/tree/main/config/fish)
+
+---
+
+## Oh My Zsh
+
+- Framework para gestionar la configuración de Zsh
+- Instalación y personalización:  
+  [Oh My Zsh Config](https://github.com/yorbimv/macos/tree/main/config/ohmyzsh)
+
+---
+
+## Neovim (NVIM)
+
+- Configura Neovim para un entorno de desarrollo poderoso
+- Tutorial y configuración:  
+  [NVIM Config](https://github.com/yorbimv/macos/tree/main/config/nvim)
+
+---
+
+## Fonts
+
+- Carpeta con fuentes personalizadas para el sistema y terminal
+- Ubicación: `config/fonts`
+
+---
+
+## Instrucciones
+
+1. Instala iTerm2, VSCode, y otras apps según [README principal](../README.md)
+2. Configura iTerm siguiendo las indicaciones aquí
+3. Personaliza tu shell con Zsh, Fish y Oh My Zsh
+4. Configura tu editor con NVIM o VSCode
+5. Instala las fuentes disponibles en la carpeta `fonts`
+
+---
+
+Si tienes dudas, visita el repositorio principal para más detalles:  
+[https://github.com/yorbimv/macos](https://github.com/yorbimv/macos)
+
+---
+
+**¡Listo para comenzar a trabajar en tu nuevo entorno macOS Sonoma!**
