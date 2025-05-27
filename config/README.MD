@@ -18,4 +18,18 @@
 
 ---
 
-En este apartado selecciona cada carpeta para ver su configuración
+# Configuraciones
+
+### Configuracion del Sistema
+
+### Fonts
+
+Descarga fuentes de texto compatibles para terminal
+
+### iTerm
+
+Tutorial para instalar todas las configuraciones visuales y desarrollo
+
+### nVim
+
+### VsCode
