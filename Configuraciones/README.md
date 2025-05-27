@@ -104,8 +104,9 @@ Una vez realizado la sección inicio, continuar con lo siguiente:
 #### Visual Studio
 
 - Para abrir VScode desde la terminal, abrir la Paleta de Comandos de VSCode con las teclas
-  `Cmd ⌘ + Shift ⇧ + P`
-- Escribir `Shell`y escoger la opción `Shell Command: Install ‘code’ command in PATH`
+  - `Cmd ⌘ + Shift ⇧ + P`
+- Escribir `Shell`y escoger la opción
+  - `Shell Command: Install ‘code’ command in PATH`
 
 #### iTerm
 
