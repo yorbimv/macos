@@ -46,13 +46,42 @@ Una vez realizado la sección inicio, continuar con lo siguiente:
          <li><a href="https://anydesk.com/es/downloads/mac-os">Anydesk</a></li>
          <li><a href="https://code.visualstudio.com/download">Visual Studio</a></li>
          <li><a href="https://portal.office.com/account#installs">Office 365</a></li>
-         <li><a href="https://brave.com/es/download/">Github Desktop</a></li>
+         <li><a href="https://desktop.github.com/download/">Github Desktop</a></li>
+         <li><a href="https://angryip.org/download/#mac">Angry IP Scanner.app - v3.9.1</a></li>
+         <li><a href="https://anydesk.com/es">AnyDesk.app - v9.0.2</a></li>
+         <li><a href="https://www.mowglii.com/itsycal">Itsycal.app - v0.15.6</a></li>
+         <li><a href="https://account.microsoft.com/services/microsoft365/details?OCID=cmmly2nfa36&refd=www.microsoft365.com">Office365</a></li>
+         <li><a href="https://transmissionbt.com/">Transmission.app - v4.0.6</a></li>
+         <li><a href="https://code.visualstudio.com/">Visual Studio Code.app - v1.100.2</a></li>
+         <li><a href="https://etcher.balena.io/">balenaEtcher.app - v2.1.2</a></li>
+         <li><a href="https://iterm2.com/">iTerm.app - v3.5.14</a></li>
 
 </details>
 
----
+<details>
+         <summary><b>Apps Crack</summary>
+         <ul>
+         <li><a href=""> Alfred 5.app - v5.6.2</a></li>
+         <li><a href="">Bartender 5.app - v5.3.5</a></li>
+         <li><a href="">Cisdem PDF Password Remover.app - v5.2.0</a></li>
+         <ul>
+        <li><a href="#" target="_blank">CleanMyMac_5.app</a> - v5.0.9</li>
+        <li><a href="#" target="_blank">CleanShot X.app</a> - v4.7.6</li>
+        <li><a href="#" target="_blank">Disk Drill.app</a> - v5.7</li>
+        <li><a href="#" target="_blank">Download Shuttle Pro.app</a> - v1.9</li>
+        <li><a href="#" target="_blank">Ethernet Status.app</a> - v5.7</li>
+        <li><a href="#" target="_blank">PDFelement.app</a> - v11.4.12</li>
+        <li><a href="#" target="_blank">Path Finder.app</a> - v2186</li>
+        <li><a href="#" target="_blank">Photomator.app</a> - v3.4.9</li>
+        <li><a href="#" target="_blank">ProFind.app</a> - v1.30</li>
+        <li><a href="#" target="_blank">WidgetWall.app</a> - v3.10.1</li>
+      </ul>
+
+## </details>
 
 ### Configuraciones Adicionales
+
+---
 
 #### Preferencias del sistema
 
