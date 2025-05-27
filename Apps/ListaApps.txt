@@ -1,77 +1,36 @@
-Adobe Acrobat Reader DC.app
-Alfred 4.app
-Amazon Music.app
-balenaEtcher.app
-Bartender 3.app
-Be Focused.app
-Brave Browser.app
-Chrome Remote Desktop Host Uninstaller.app
-CleanMyMac X.app
-CopyClip.app
-Cyberduck.app
-Dash.app
-DB Browser for SQLite.app
-Dia.app
-Discord.app
-Disk Drill.app
-Docker.app
-Download Shuttle Pro.app
-Dynamo.app
-Encrypto.app
-Ethernet Status.app
-FileZilla.app
-Final Cut Pro.app
-Friendly Streaming.app
-GhosteryLite.app
-GIMP-2.10.app
-GitHub Desktop.app
-Godot.app
-Google Chrome.app
-Google Docs.app
-Google Drive.app
-Google Sheets.app
-Google Slides.app
-HazeOver.app
-hisuite.app
-HP Smart.app
-IINA.app
-iMovie.app
-iTerm.app
-Itsycal.app
-KeyCastr.app
-Keynote.app
-Loom.app
-Magnet.app
-MEGAsync.app
-Microsoft Excel.app
-Microsoft OneNote.app
-Microsoft PowerPoint.app
-Microsoft Teams.app
-Microsoft Word.app
-Min.app
-MySQLWorkbench.app
-Notion.app
-Numbers.app
-One Click Translate for Safari.app
-OneDrive.app
-Opera.app
-Pages.app
-Paint X.app
-PullTube.app
-Safari.app
-Slack.app
-Spark.app
-TeamViewer.app
-Telegram.app
-The Unarchiver.app
-Things3.app
-Transmission.app
-Utilities
-VirtualBox.app
-Visual Studio Code.app
-VLC.app
-VMware Fusion.app
-Warp.app
-WhatsApp.app
-Zenmap.app
-zoom.us.app
+Alfred 5.app - v5.6.2
+Angry IP Scanner.app - v3.9.1
+AnyDesk.app - v9.0.2
+Bartender 5.app - v5.3.5
+Brave Browser.app - v136.1.78.102
+Cisdem PDF Password Remover.app - v5.2.0
+CleanMyMac_5.app - v5.0.9
+CleanShot X.app - v4.7.6
+Disk Drill.app - v5.7
+Download Shuttle Pro.app - v1.9
+Ethernet Status.app - v5.7
+GitHub Desktop.app - v3.4.20
+Google Chrome.app - v137.0.7151.41
+Google Docs.app - v108.0
+Google Drive.app - v108.0
+Google Sheets.app - v108.0
+Google Slides.app - v108.0
+Itsycal.app - v0.15.6
+Keka.app - v1.5.0
+Microsoft Defender Shim.app - v101.24080.0001
+Microsoft Excel.app - v16.97
+Microsoft OneNote.app - v16.97
+Microsoft Outlook.app - v16.97.1
+Microsoft PowerPoint.app - v16.97
+Microsoft Teams.app - v25107.1606.3643.3915
+Microsoft Word.app - v16.97.1
+OneDrive.app - v25.080.0427
+PDFelement.app - v11.4.12
+Path Finder.app - v2186
+Photomator.app - v3.4.9
+ProFind.app - v1.30
+Transmission.app - v4.0.6
+Visual Studio Code.app - v1.100.2
+WidgetWall.app - v3.10.1
+balenaEtcher.app - v2.1.2
+iTerm.app - v3.5.14
