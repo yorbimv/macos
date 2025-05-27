@@ -1,6 +1,6 @@
-# 💻 Configuraciones para macOS
+# 💻 Configuración de entorno en macOS Sonoma
 
-> 🛠️ Repositorio personal para configurar entornos de desarrollo en macOS Sonoma / Monterey.
+> 🛠️ Guía personal para dejar listo el entorno de desarrollo después de formatear macOS Sonoma.
 
 <p align="center">
   <img width="60%" src="https://cambiodigital-ol.com/wp-content/uploads/2023/06/mac-OS_Sonomajpg-696x392.jpg">
@@ -11,8 +11,8 @@
 ## 📁 Índice del Repositorio
 
 - [📦 Apps](#apps)
-- [⚙️ Configuraciones](#configuraciones)
-- [🧩 Soluciones](#soluciones)
+- [⚙️ Configuraciones del sistema](#configuraciones-del-sistema)
+- [🧩 Soluciones comunes](#soluciones-comunes)
 - [🛠️ Config](#config)
   - [📂 Fonts](#fonts)
   - [📂 Preferencias](#preferencias)
@@ -26,23 +26,23 @@
 
 ## 📦 Apps
 
-Aplicaciones esenciales que utilizo en mis instalaciones de macOS.
+Lista de aplicaciones esenciales que siempre instalo después de formatear.
 
-📄 [ListaApps.txt](./Apps/ListaApps.txt)
-
----
-
-## ⚙️ Configuraciones
-
-Ajustes generales del sistema y configuraciones clave para entornos de desarrollo.
-
-📁 [Ver Configuraciones](./Configuraciones/)
+📄 [Ver ListaApps.txt](./Apps/ListaApps.txt)
 
 ---
 
-## 🧩 Soluciones
+## ⚙️ Configuraciones del sistema
 
-Soluciones a errores frecuentes que me he encontrado en macOS con herramientas de desarrollo.
+Preferencias generales, ajustes de seguridad y personalización inicial del sistema.
+
+📁 [Ir a Configuraciones](./Configuraciones/)
+
+---
+
+## 🧩 Soluciones comunes
+
+Errores frecuentes que pueden surgir en instalaciones limpias de macOS y sus soluciones.
 
 📁 [Ver Soluciones](./Soluciones/)
 
@@ -50,18 +50,16 @@ Soluciones a errores frecuentes que me he encontrado en macOS con herramientas d
 
 ## 🛠️ Config
 
-Configuraciones detalladas por herramientas y entornos.
+Ajustes específicos por herramienta para dejar todo funcionando como antes del formateo.
 
 ### 📂 Fonts
 
-Fuentes para desarrollo:
+Fuentes para terminales y editores:
 
 - Fira Code
 - FontAwesome
-- Pomicons
 - SourceCodePro
-- icomoon
-- octicons
+- icomoon, Pomicons, octicons
 
 📁 [Ver carpeta Fonts](./config/Fonts/)
 
@@ -69,7 +67,7 @@ Fuentes para desarrollo:
 
 ### 📂 Preferencias
 
-Configuraciones del sistema personalizadas.
+Ajustes personalizados exportados para restaurar configuraciones del sistema.
 
 📁 [Ver carpeta Preferencias](./config/Preferencias/)
 
@@ -77,7 +75,7 @@ Configuraciones del sistema personalizadas.
 
 ### 📂 VsCode
 
-Configuración de Visual Studio Code para entornos de desarrollo modernos.
+Extensiones, configuración de usuario y temas de Visual Studio Code.
 
 📁 [Ver carpeta VsCode](./config/VsCode/)
 
@@ -85,20 +83,20 @@ Configuración de Visual Studio Code para entornos de desarrollo modernos.
 
 ### 📂 iTerm
 
-Terminal personalizada con temas, alias y shells.
+Configuración visual, alias, temas y shells (zsh, fish) para terminal.
 
 📁 [Ver carpeta iTerm](./config/iTerm/)
 
-- [alias](./config/iTerm/alias/)
-- [fish](./config/iTerm/fish/)
-- [hacking](./config/iTerm/hacking/)
-- [zsh](./config/iTerm/zsh/)
+- [Alias personalizados](./config/iTerm/alias/)
+- [Fish shell](./config/iTerm/fish/)
+- [ZSH config](./config/iTerm/zsh/)
+- [Herramientas de hacking](./config/iTerm/hacking/)
 
 ---
 
 ### 📂 nvim
 
-Configuración personalizada de Neovim para productividad.
+Configuración de Neovim para desarrollo avanzado.
 
 📁 [Ver carpeta nvim](./config/nvim/)
 
@@ -106,13 +104,14 @@ Configuración personalizada de Neovim para productividad.
 
 ## 🧠 Recomendaciones
 
-- Sincroniza este repositorio en tu nuevo equipo después de una instalación limpia.
-- Instala primero [iTerm](https://iterm2.com/) y configura las fuentes desde la carpeta `Fonts`.
-- Utiliza los alias disponibles en `iTerm/alias` para mejorar la productividad en terminal.
-- Asegúrate de tener Homebrew instalado y actualizado.
+- 🔁 Clona este repositorio al iniciar tu Mac recién formateado.
+- 💾 Instala Homebrew como primer paso.
+- 💻 Instala [iTerm](https://iterm2.com/), y luego aplica el perfil de color y fuentes.
+- ⚙️ Usa los alias y funciones preconfiguradas en la terminal.
+- 🧪 Revisa la carpeta de Soluciones si algo falla durante el proceso.
 
 ---
 
 ## 📎 Licencia
 
-MIT — libre de uso personal.
+MIT — libre para uso personal.
