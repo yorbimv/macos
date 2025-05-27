@@ -60,22 +60,28 @@ Una vez realizado la sección inicio, continuar con lo siguiente:
 
 <details>
          <summary><b>Apps Crack</summary>
-         <ul>
-         <li><a href=""> Alfred 5.app - v5.6.2</a></li>
-         <li><a href="">Bartender 5.app - v5.3.5</a></li>
-         <li><a href="">Cisdem PDF Password Remover.app - v5.2.0</a></li>
-         <ul>
-        <li><a href="#" target="_blank">CleanMyMac_5.app</a> - v5.0.9</li>
-        <li><a href="#" target="_blank">CleanShot X.app</a> - v4.7.6</li>
-        <li><a href="#" target="_blank">Disk Drill.app</a> - v5.7</li>
-        <li><a href="#" target="_blank">Download Shuttle Pro.app</a> - v1.9</li>
-        <li><a href="#" target="_blank">Ethernet Status.app</a> - v5.7</li>
-        <li><a href="#" target="_blank">PDFelement.app</a> - v11.4.12</li>
-        <li><a href="#" target="_blank">Path Finder.app</a> - v2186</li>
-        <li><a href="#" target="_blank">Photomator.app</a> - v3.4.9</li>
-        <li><a href="#" target="_blank">ProFind.app</a> - v1.30</li>
-        <li><a href="#" target="_blank">WidgetWall.app</a> - v3.10.1</li>
-      </ul>
+          <ul>
+              <li><a href="https://macappstre.com/alfred/"> Alfred 5.app - v5.6.2</a></li>
+              <li><a href="https://macappstre.com/bartender-5/">Bartender 5.app - v5.3.5</a></li>
+              <li><a href="https://drive.google.com/drive/folders/1IiuZ9khumLUTSVT6zvtUyiRnX924Dl4K?usp=sharing">Cisdem PDF Password Remover.app - v5.2.0</a></li>
+              <li><a href="https://macappstre.com/cleanmymac/" target="_blank">CleanMyMac_5.app</a> - v5.0.9</li>
+              <li><a href="https://macappstre.com/cleanshot-x/" target="_blank">CleanShot X.app</a> - v4.7.6</li>
+              <li><a href="https://drive.google.com/drive/folders/1IiuZ9khumLUTSVT6zvtUyiRnX924Dl4K?usp=sharing" target="_blank">Disk Drill.app</a> - v5.7</li>
+              <li><a href="https://drive.google.com/drive/folders/1IiuZ9khumLUTSVT6zvtUyiRnX924Dl4K?usp=sharing" target="_blank">Download Shuttle Pro.app</a> - v1.9</li>
+              <li><a href="https://drive.google.com/drive/folders/1IiuZ9khumLUTSVT6zvtUyiRnX924Dl4K?usp=sharing" target="_blank">Ethernet Status.app</a> - v5.7</li>
+              <li><a href="https://macappstre.com/pdfelement-pro-edit-scan-pdf/" target="_blank">PDFelement.app</a> - v11.4.12</li>
+              <li><a href="https://macappstre.com/path-finder/" target="_blank">Path Finder.app</a> - v2186</li>
+              <li><a href="https://macappstre.com/photomator-pro/" target="_blank">Photomator.app</a> - v3.4.9</li>
+              <li><a href="https://macappstre.com/profind/" target="_blank">ProFind.app</a> - v1.30</li>
+              <li><a href="https://macappstre.com/widgetwall-desktop-widgets-for-your-mac/" target="_blank">WidgetWall.app</a> - v3.10.1</li>
+          </ul>
+
+#### Fuente:
+
+- https://macappstre.com/
+- https://www.macbed.com/
+- https://haxmac.cc/π
+- https://drive.google.com/drive/folders/1IiuZ9khumLUTSVT6zvtUyiRnX924Dl4K?usp=sharing
 
 ## </details>
 
