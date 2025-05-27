@@ -1,4 +1,4 @@
-# Configuración de iTerm para macOS Sonoma
+# MacOS Sonoma -
 
 Este archivo contiene las configuraciones y personalizaciones necesarias para dejar iTerm listo después de formatear tu Mac con macOS Sonoma.
 

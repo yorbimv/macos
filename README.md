@@ -20,6 +20,7 @@
   - [📂 iTerm](#iterm)
   - [📂 nvim](#nvim)
 - [🧠 Recomendaciones](#recomendaciones)
+- [Primeros Pasos](#PrimerosPasos)
 - [📎 Licencia](#licencia)
 
 ---
