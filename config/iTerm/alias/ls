@@ -1,0 +1,11 @@
+******************
+        ls
+******************
+
+# Fish & Zsh
+
+ls  =   'lsd'
+l   =   'ls -l'
+la  =   'ls -a'
+lla =   'ls -la'
+lt  =   'ls --tree'

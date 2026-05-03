@@ -18,8 +18,6 @@
 
 # MacOs Sonoma - Inicio
 
-## Flujo de instalación
-
 Sigue las secciones en orden:
 
 | #   | Sección                                   | Descripción                                       |
