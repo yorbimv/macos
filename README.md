@@ -1,5 +1,3 @@
-
-
 <p align="center">
 <img width="50%" height="50%" src="https://cambiodigital-ol.com/wp-content/uploads/2023/06/mac-OS_Sonomajpg-696x392.jpg"/>
 </p>
@@ -17,19 +15,20 @@
 </p>
 
 ---
+
 # MacOs Sonoma - Inicio
 
 ## Flujo de instalación
 
 Sigue las secciones en orden:
 
-| #   | Sección                                   | Descripción                                                 |
-| --- | ----------------------------------------- | ----------------------------------------------------------- |
-| 01  | [🖥️ Sistema](01-sistema/)                 | Preferencias del sistema |
-| 02  | [📦 Aplicaciones](02-aplicaciones/)       | Homebrew, apps esenciales, inventario completo              |
-| 03  | [💻 Dev Environment](03-dev-environment/) | iTerm2, Zsh, Fish, Git, Neovim, VSCode                      |
-| 04  | [⚡ Productividad](04-productividad/)     | Cuentas, Office 365, OneDrive, email, navegadores           |
-| 05  | [🤖 IA Local](05-ia-local/)               | OpenCode, Gemini, Ollama, archivos de contexto              |
+| #   | Sección                                   | Descripción                                       |
+| --- | ----------------------------------------- | ------------------------------------------------- |
+| 01  | [🖥️ Sistema](01-sistema/)                 | Preferencias del sistema                          |
+| 02  | [📦 Aplicaciones](02-aplicaciones/)       | Homebrew, apps esenciales, inventario completo    |
+| 03  | [💻 Dev Environment](03-dev-environment/) | iTerm2, Zsh, Fish, Git, Neovim, VSCode            |
+| 04  | [⚡ Productividad](04-productividad/)     | Cuentas, Office 365, OneDrive, email, navegadores |
+| 05  | [🤖 IA Local](05-ia-local/)               | OpenCode, Gemini, Ollama, archivos de contexto    |
 
 ---
 
@@ -60,36 +59,41 @@ Sigue las secciones en orden:
    - Esperar unas **horas** a que se descargue
    - Reiniciar Equipo y ya debe aparecer los archivos
 
-
 > Después de reiniciar el equipo continuar con lo siguiente
 
 ### 2. Clonar repo en Documentos
+
 _Cambiar a la ubicación de /Documentos_
-```git clone https://github.com/yorbimv/macos.git```
 
-
+```bash
+git clone https://github.com/yorbimv/macos.git
+```
 
 ### 3. Habilitar instalación de terceros
+
 _Permite instalar aplicaciones de "Cualquier Sitio"_
-```sudo spctl --master-disable```
+
+```bash
+sudo spctl --master-disable
+```
 
 ### 4. Instalar brew
-_Gestor de Paquetes para MacOs_
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
-> Continuar con las secciones 
+_Gestor de Paquetes para MacOs_
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+> Continuar con las secciones
+>
 > > **Sistema**
 > > **Aplicaciones**
 > > **Dev Environment**
 > > **Productividad**
-> > **IA** 
-
+> > **IA**
 
 ---
+
 **Problemas comunes y soluciones en [troubleshooting/](troubleshooting/)**
 **Última actualización:** Mayo 2026
-
-
-
-
-
