@@ -22,6 +22,8 @@
 
 > Probado en macOS 27.0.1 (26A434) · MacBook Air M5 (Apple Silicon)
 
+Guía paso a paso para **mantener la configuración y el entorno de desarrollo actual** al instalar o cambiar de equipo. Todos los enlaces, comandos y archivos de configuración necesarios se encuentran en este repositorio.
+
 Sigue las secciones en orden:
 
 | #   | Sección                                   | Descripción                                       |
