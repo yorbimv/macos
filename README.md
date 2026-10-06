@@ -120,15 +120,9 @@ git clone https://github.com/yorbimv/macos.git ~/Documents/GitHub/macos
 cd ~/Documents/GitHub/macos && ./install.sh
 ```
 
-```
-Pasos de instalación  (✓ = ya ejecutado)
-
-  [✓]  1  Herramientas de línea de comandos de Xcode
-  [✓]  2  Homebrew (gestor de paquetes)
-  [ ]  3  Herramientas de terminal: git, gh, neovim, ripgrep, fzf…
-  [ ]  4  Oh My Zsh + Powerlevel10k + fzf
-  ...
-```
+<p align="center">
+<img src="assets/install-menu.png" alt="Menú de install.sh" width="75%"/>
+</p>
 
 | Comando              | Qué hace                                      |
 | -------------------- | --------------------------------------------- |

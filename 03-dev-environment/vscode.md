@@ -2,6 +2,10 @@
 
 Configuración de Visual Studio Code.
 
+<p align="center">
+<img src="../assets/vscode.png" alt="VSCode con el repo abierto" width="70%"/>
+</p>
+
 ## Instalación
 
 ```bash

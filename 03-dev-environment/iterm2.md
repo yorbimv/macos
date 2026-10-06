@@ -2,6 +2,10 @@
 
 Configuración del terminal iTerm2.
 
+<p align="center">
+<img src="../assets/iterm-p10k.png" alt="iTerm2 con Powerlevel10k y lsd" width="80%"/>
+</p>
+
 ## Instalación
 
 ```bash

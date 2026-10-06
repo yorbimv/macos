@@ -2,6 +2,10 @@
 
 Shell principal con Oh-My-Zsh, PowerLevel10k y plugins.
 
+<p align="center">
+<img src="../assets/iterm-p10k.png" alt="iTerm2 con Powerlevel10k y lsd" width="80%"/>
+</p>
+
 ## Instalación
 
 ### 1. Oh-My-Zsh

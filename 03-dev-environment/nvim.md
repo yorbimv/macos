@@ -2,6 +2,10 @@
 
 Configuración moderna de Neovim en **Lua** con **lazy.nvim**.
 
+<p align="center">
+<img src="../assets/nvim-neotree.png" alt="Neovim con neo-tree" width="80%"/>
+</p>
+
 ## Instalación
 
 ```bash
@@ -100,6 +104,11 @@ Parámetros/atajos LSP:
 Activo: **Gruvbox** (contraste hard) en `lua/plugins/colorscheme.lua`.
 
 ## Atajos (Leader = Espacio)
+
+<p align="center">
+<img src="../assets/nvim-telescope.png" alt="Telescope: buscar archivos con &lt;leader&gt;ff" width="80%"/>
+</p>
+
 
 | Atajo | Acción |
 |-------|--------|
