@@ -37,6 +37,46 @@ Sigue las secciones en orden:
 
 ---
 
+### Elige tu camino
+
+|                  | 🤖 Guiado                                          | 📖 Manual                                         |
+| ---------------- | -------------------------------------------------- | ------------------------------------------------- |
+| **Para quién**   | Equipo nuevo, quieres avanzar rápido               | Quieres entender o ajustar cada cosa              |
+| **Cómo**         | `./install.sh`: menú de 14 pasos, uno a la vez     | Secciones 01 a 05, en orden                       |
+| **Control**      | Cada paso muestra lo que instala y pide confirmar  | Tú copias y ejecutas cada comando                 |
+| **Ver sección**  | [2. Instalación guiada](#2-instalación-guiada-paso-a-paso) | [3. Instalación manual](#3-instalación-manual) |
+
+> Los **primeros pasos** (actualizar, iCloud y apps de terceros) son manuales en ambos caminos.
+
+### Qué incluye
+
+| Área          | Herramientas                                                          |
+| ------------- | --------------------------------------------------------------------- |
+| Terminal      | iTerm2, zsh con Oh My Zsh + Powerlevel10k, fzf, lsd, ripgrep          |
+| Editores      | Neovim (Lua + lazy.nvim, LSP, Telescope), VSCode con extensiones      |
+| Git           | git, GitHub CLI, GitHub Desktop, alias                                |
+| Productividad | Alfred, Rectangle, Karabiner, Office 365, OneDrive, Google Drive      |
+| IA            | Claude, ChatGPT, Ollama, Gemini CLI, OpenCode                         |
+| Sistema       | Preferencias de Finder, Dock, trackpad y capturas                     |
+
+### Antes de empezar
+
+- **Apple ID** para iCloud.
+- **Cuenta de GitHub**, para subir cambios al repo desde el equipo nuevo (`gh auth login`).
+- **Cuenta de Microsoft**, para Office 365 y OneDrive.
+- **Internet estable**: iCloud puede tardar horas en sincronizar.
+
+### Respalda del equipo anterior
+
+Este repo guarda tu **configuración**, no tus datos ni tus secretos. Antes de dejar el equipo viejo, guarda aparte:
+
+- Llaves SSH (`~/.ssh`) y tokens de acceso
+- Tu identidad de git (`~/.gitconfig.local`)
+- Licencias y cuentas de apps de pago (Alfred, CleanShot, etc.)
+- Archivos fuera de iCloud y bases de datos locales
+
+---
+
 ### 1. Primeros pasos
 
 ##### 1.1 Actualizar a la versión más reciente
@@ -109,6 +149,16 @@ _Para entender qué hace cada paso, o hacerlo a mano, continuar con las seccione
 - [💻 Dev Environment](03-dev-environment/)
 - [⚡ Productividad](04-productividad/)
 - [🤖 IA Local](05-ia-local/)
+
+---
+
+### Verifica que quedó bien
+
+- [ ] `./install.sh list` muestra los pasos que hiciste con ✓
+- [ ] Abres una terminal nueva y ves el prompt de Powerlevel10k con iconos
+- [ ] `nvim` abre sin errores
+- [ ] `brew doctor` no reporta problemas importantes
+- [ ] Desktop y Documentos aparecen sincronizados con iCloud
 
 ---
 
