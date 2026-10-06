@@ -22,6 +22,10 @@
 
 > Probado en macOS 27.0.1 (26A434) · MacBook Air M5 (Apple Silicon)
 
+<p align="center">
+<img src="assets/acerca-de.png" alt="Ajustes del Sistema: Información del equipo" width="45%"/>
+</p>
+
 Guía paso a paso para **mantener la configuración y el entorno de desarrollo actual** al instalar o cambiar de equipo. Todos los enlaces, comandos y archivos de configuración necesarios se encuentran en este repositorio.
 
 Sigue las secciones en orden:
@@ -107,6 +111,10 @@ sudo spctl --master-disable
 > Después, activar la opción **"Cualquier sitio"** en Ajustes del Sistema / Privacidad y seguridad.
 > Si no aparece, abrir cada app con **Abrir de todos modos** en esa misma pantalla.
 > Esto reduce la protección de Gatekeeper; para volver a activarla: `sudo spctl --global-enable`
+
+<p align="center">
+<img src="assets/privacidad.png" alt="Ajustes del Sistema: Privacidad y seguridad" width="45%"/>
+</p>
 
 > Después de reiniciar el equipo continuar con lo siguiente
 
