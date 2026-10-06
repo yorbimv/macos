@@ -36,8 +36,6 @@ Sigue las secciones en orden:
 
 ### 1. Primeros pasos
 
-> Una vez instalado el sistema (Mac con Apple Silicon), ejecutar lo siguiente en orden:
-
 ##### 1.1 Actualizar a la versión más reciente
 
 1. Ir a Ajustes del Sistema
