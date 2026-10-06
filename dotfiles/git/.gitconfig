@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[core]
+	editor = nvim
+# Identidad (user.name / user.email) va en ~/.gitconfig.local; install.sh lo crea.
+[include]
+	path = ~/.gitconfig.local
