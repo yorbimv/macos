@@ -66,7 +66,7 @@ command -v nvim >/dev/null && nvim --headless "+Lazy! restore" +qa || true
 
 cat <<MSG
 
-✓ Listo. Pasos manuales que no se pueden automatizar → docs/01-sistema.md
+✓ Listo. Pasos manuales que no se pueden automatizar → 01-sistema/preferencias.md
   (iCloud, cuentas Microsoft, permisos de Privacidad, licencias).
   Abre una terminal nueva para cargar zsh.
 MSG

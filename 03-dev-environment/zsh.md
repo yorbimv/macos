@@ -32,8 +32,8 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 ### 4. Copiar configuración
 
 ```bash
-cp ~/Documents/GitHub/macos/dotfiles/zsh/.zshrc ~/.zshrc
-cp ~/Documents/GitHub/macos/dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
+cp ../dotfiles/zsh/.zshrc ~/.zshrc
+cp ../dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
 source ~/.zshrc
 ```
 

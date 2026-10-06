@@ -19,4 +19,4 @@ Para agregar algo nuevo: instálalo con `brew install` / `brew install --cask`, 
 
 > Alfred, CleanShot y Spark se instalan con el Brewfile pero requieren tu licencia o cuenta.
 
-Siguiente: [03 - Dev](03-dev/).
+Siguiente: [03 - Dev Environment](../03-dev-environment/).

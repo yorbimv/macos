@@ -21,4 +21,4 @@
 
 No desactives Gatekeeper. Si una app no abre: Ajustes del Sistema → Privacidad y seguridad → **Abrir de todos modos**.
 
-Siguiente: [02 - Aplicaciones](02-aplicaciones.md).
+Siguiente: [02 - Aplicaciones](../02-aplicaciones/).

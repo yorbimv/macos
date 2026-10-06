@@ -27,7 +27,7 @@ code --version
 3. O usar la config manual del repo:
 
 ```bash
-cp ~/Documents/GitHub/macos/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+cp ../dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ```
 
 ## Settings

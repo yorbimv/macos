@@ -17,7 +17,7 @@ brew install neovim ripgrep fd
 
 ```bash
 mkdir -p ~/.config/nvim
-cp -r ~/Documents/GitHub/macos/dotfiles/nvim/* ~/.config/nvim/
+cp -r ../dotfiles/nvim/* ~/.config/nvim/
 ```
 
 ### 2. Primera ejecución
