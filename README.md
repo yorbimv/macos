@@ -28,6 +28,7 @@ Sigue las secciones en orden:
 
 | #   | Sección                                   | Descripción                                       |
 | --- | ----------------------------------------- | ------------------------------------------------- |
+| 00  | [🚀 Inicio](#1-primeros-pasos)            | Actualizar, iCloud, apps de terceros              |
 | 01  | [🖥️ Sistema](01-sistema/)                 | Preferencias del sistema                          |
 | 02  | [📦 Aplicaciones](02-aplicaciones/)       | Homebrew, apps esenciales, inventario completo    |
 | 03  | [💻 Dev Environment](03-dev-environment/) | iTerm2, Zsh, Git, Neovim, VSCode                  |
