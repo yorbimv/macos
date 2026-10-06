@@ -1,0 +1,22 @@
+# Herramientas de terminal
+brew "git"
+brew "gh"
+brew "neovim"
+brew "tmux"
+brew "node"
+brew "tree"
+brew "ripgrep"
+brew "fd"
+brew "fzf"
+brew "lsd"
+brew "highlight"
+brew "tree-sitter-cli"
+brew "mas"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
+# Opcionales (descomentar si se usan)
+# brew "mysql"
+# brew "postgresql@15"
+# brew "redis"
+# brew "php"

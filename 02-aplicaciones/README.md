@@ -1,13 +1,25 @@
 # 02 - Aplicaciones
 
-La fuente de verdad es el [`Brewfile`](../Brewfile): CLI, apps (cask), fuentes y extensiones de VSCode.
+Las apps están divididas por categoría en [`brewfiles/`](../brewfiles/). Cada una es un paso de `./install.sh`:
+
+| Paso | Archivo | Contenido |
+|---|---|---|
+| 3 | [`cli`](../brewfiles/cli.Brewfile) | git, gh, neovim, ripgrep, fzf, lsd… |
+| 5 | [`dev`](../brewfiles/dev.Brewfile) | iTerm2, VSCode, GitHub Desktop, fuentes |
+| 8 | [`vscode-extensiones`](../brewfiles/vscode-extensiones.Brewfile) | Extensiones de VSCode |
+| 9 | [`navegadores`](../brewfiles/navegadores.Brewfile) | Brave, Chrome, Helium |
+| 10 | [`productividad`](../brewfiles/productividad.Brewfile) | Alfred, Rectangle, Karabiner, Obsidian… |
+| 11 | [`microsoft-cloud`](../brewfiles/microsoft-cloud.Brewfile) | Office, Teams, OneDrive, Google Drive |
+| 12 | [`utilidades`](../brewfiles/utilidades.Brewfile) | Tailscale, AnyDesk, Transmission… |
+| 13 | [`ia`](../brewfiles/ia.Brewfile) | Claude, ChatGPT, Ollama, Gemini CLI, OpenCode |
 
 ```bash
-brew bundle --file=Brewfile     # instalar todo
-brew bundle cleanup --file=Brewfile   # ver qué tienes instalado que NO está en el Brewfile
+./install.sh 9                                  # guiado: muestra la lista y pregunta
+brew bundle --file=brewfiles/navegadores.Brewfile   # directo, sin preguntas
+brew install --cask brave-browser               # una sola app
 ```
 
-Para agregar algo nuevo: instálalo con `brew install` / `brew install --cask`, y escríbelo en el Brewfile en la sección que corresponda.
+Para agregar algo nuevo: instálalo y escríbelo en el Brewfile de su categoría.
 
 ## Apps que NO están en el Brewfile (instalar a mano)
 

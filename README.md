@@ -56,9 +56,9 @@ Sigue las secciones en orden:
 
 > Después de reiniciar el equipo continuar con lo siguiente
 
-### 2. Instalación automática
+### 2. Instalación guiada (paso a paso)
 
-_Instala Homebrew, todas las apps del `Brewfile`, Oh My Zsh y enlaza los dotfiles_
+_Un menú interactivo: tú eliges qué paso ejecutar y confirmas cada instalación antes de que ocurra_
 
 ```bash
 xcode-select --install
@@ -66,19 +66,29 @@ git clone https://github.com/yorbimv/macos.git ~/Documents/GitHub/macos
 cd ~/Documents/GitHub/macos && ./install.sh
 ```
 
-> `install.sh` se puede volver a correr sin problema. Usa `./install.sh --no-apps` para omitir la instalación de apps.
+```
+Pasos de instalación  (✓ = ya ejecutado)
 
-| Paso                        | Qué hace                                                                                  |
-| --------------------------- | ----------------------------------------------------------------------------------------- |
-| Homebrew                    | Lo instala si falta                                                                       |
-| `Brewfile`                  | CLI, apps, fuentes y extensiones de VSCode                                                |
-| Oh My Zsh                   | Con Powerlevel10k y fzf                                                                   |
-| `dotfiles/`                 | Symlinks a `~/.zshrc`, nvim, git, VSCode… (respalda lo existente como `*.bak-<fecha>`)   |
-| `scripts/macos-defaults.sh` | Finder, Dock, trackpad, capturas                                                          |
+  [✓]  1  Herramientas de línea de comandos de Xcode
+  [✓]  2  Homebrew (gestor de paquetes)
+  [ ]  3  Herramientas de terminal: git, gh, neovim, ripgrep, fzf…
+  [ ]  4  Oh My Zsh + Powerlevel10k + fzf
+  ...
+```
+
+| Comando              | Qué hace                                      |
+| -------------------- | --------------------------------------------- |
+| `./install.sh`       | Menú: elige un número, `n` = siguiente, `q` = salir |
+| `./install.sh 3`     | Ejecuta solo el paso 3                        |
+| `./install.sh list`  | Muestra los pasos y cuáles ya hiciste         |
+
+- Antes de instalar, cada paso **muestra la lista** de lo que va a instalar y pregunta `[s/N]`.
+- Los dotfiles se enlazan **uno por uno** y se respalda lo que ya exista (`*.bak-<fecha>`).
+- Las apps están separadas por categoría en [`brewfiles/`](brewfiles/): edita el archivo para quitar lo que no quieras.
 
 ### 3. Instalación manual
 
-_Si prefieres ir paso a paso, o para entender qué hace cada cosa, continuar con las secciones_
+_Para entender qué hace cada paso, o hacerlo a mano, continuar con las secciones (cada una indica su paso de `install.sh`)_
 
 - [🖥️ Sistema](01-sistema/)
 - [📦 Aplicaciones](02-aplicaciones/)
@@ -90,7 +100,7 @@ _Si prefieres ir paso a paso, o para entender qué hace cada cosa, continuar con
 
 ### Mantener el repo al día
 
-- Nueva app o CLI → agrégala al [`Brewfile`](Brewfile). `brew bundle cleanup --file=Brewfile` muestra lo instalado que no está listado.
+- Nueva app o CLI → agrégala al archivo que corresponda en [`brewfiles/`](brewfiles/).
 - Los dotfiles son symlinks: editar `~/.zshrc` o `~/.config/nvim` ya modifica el repo, solo haz commit.
 
 ---

@@ -1,6 +1,6 @@
 # 01 - Sistema (pasos manuales)
 
-`install.sh` aplica Finder, Dock y trackpad con `scripts/macos-defaults.sh`. Esto es lo que queda por hacer a mano.
+El paso 14 de `./install.sh` aplica Finder, Dock y trackpad con `scripts/macos-defaults.sh`. Esto es lo que queda por hacer a mano.
 
 ## Antes de correr `install.sh`
 

@@ -1,6 +1,6 @@
 # 03 - Entorno de desarrollo
 
-`install.sh` instala todo y enlaza los dotfiles con symlinks desde `dotfiles/`:
+Pasos de `./install.sh` relacionados: **4** (Oh My Zsh), **5** (iTerm2/VSCode), **6** (dotfiles), **7** (plugins de Neovim) y **8** (extensiones de VSCode). El paso 6 enlaza con symlinks, uno por uno, desde `dotfiles/`:
 
 | Archivo en el repo | Destino |
 |---|---|

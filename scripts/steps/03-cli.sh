@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Herramientas de terminal: git, gh, neovim, ripgrep, fzf…
+source "$(dirname "$0")/../lib.sh"; brewfile_step cli
