@@ -19,16 +19,16 @@ brew bundle --file=brewfiles/navegadores.Brewfile   # directo, sin preguntas
 brew install --cask brave-browser               # una sola app
 ```
 
-Para agregar algo nuevo: instálalo y escríbelo en el Brewfile de su categoría.
+Para agregar algo nuevo: instálalo y escríbelo en el archivo de su categoría en `brewfiles/`.
 
 ## Apps que NO están en el Brewfile (instalar a mano)
 
 | Origen | Apps |
 | :-- | :-- |
-| Mac App Store | Encrypto, HP Smart, Paint X, PiPifier, Xcode (con `mas`, ver Brewfile) |
+| Mac App Store | Encrypto, HP Smart, Paint X, PiPifier, Xcode (con `mas`, ver `brewfiles/productividad.Brewfile`) |
 | Sitio oficial / con licencia propia | Angry IP Scanner, Bartender, CleanMyMac, Disk Drill, Path Finder, PDFelement, Photomator, ProFind, WidgetWall, Download Shuttle Pro, Ethernet Status |
 | Portal de Microsoft | Microsoft Defender (lo despliega la organización) |
 
-> Alfred, CleanShot y Spark se instalan con el Brewfile pero requieren tu licencia o cuenta.
+> Alfred, CleanShot y Spark se instalan con `brewfiles/` pero requieren tu licencia o cuenta.
 
 Siguiente: [03 - Dev Environment](../03-dev-environment/).

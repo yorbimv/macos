@@ -19,6 +19,6 @@ El paso 14 de `./install.sh` aplica Finder, Dock y trackpad con `scripts/macos-d
 
 ## Apps de terceros bloqueadas
 
-No desactives Gatekeeper. Si una app no abre: Ajustes del Sistema → Privacidad y seguridad → **Abrir de todos modos**.
+Para permitir apps de cualquier sitio, ver el paso **1.3** del [README](../README.md). Si una app concreta no abre: Ajustes del Sistema → Privacidad y seguridad → **Abrir de todos modos**.
 
 Siguiente: [02 - Aplicaciones](../02-aplicaciones/).

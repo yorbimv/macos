@@ -38,21 +38,34 @@ Sigue las secciones en orden:
 
 > Una vez instalado el sistema (Mac con Apple Silicon), ejecutar lo siguiente en orden:
 
-##### Actualizar Sistema
+##### 1.1 Actualizar a la versión más reciente
 
 1. Ir a Ajustes del Sistema
 2. Ir a General / Actualización de Software
+3. Instalar la última versión disponible y reiniciar
 
-##### Loguearse en iCloud
+##### 1.2 Loguearse en iCloud
 
 1. Ir a Ajustes del Sistema
-2. Login en iCloud
+2. Login con la cuenta de iCloud
 3. Ir a Ajustes del Sistema / Apple ID / iCloud
    - Activar **"Carpetas Escritorio y Documentos"**
 4. Una vez realizado, proceder a configurar **Mail y Fotos**
 5. Se sincronizarán todos los archivos.
    - Esperar unas **horas** a que se descargue
    - Reiniciar Equipo y ya deben aparecer los archivos
+
+##### 1.3 Habilitar instalación de apps de terceros
+
+_Permite instalar aplicaciones de "Cualquier Sitio"_
+
+```bash
+sudo spctl --master-disable
+```
+
+> Después, activar la opción **"Cualquier sitio"** en Ajustes del Sistema / Privacidad y seguridad.
+> Si no aparece, abrir cada app con **Abrir de todos modos** en esa misma pantalla.
+> Esto reduce la protección de Gatekeeper; para volver a activarla: `sudo spctl --global-enable`
 
 > Después de reiniciar el equipo continuar con lo siguiente
 
