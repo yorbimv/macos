@@ -1,5 +1,5 @@
 <p align="center">
-<img width="50%" height="50%" src="https://upload.wikimedia.org/wikipedia/en/f/fa/MacOS_Tahoe_screenshot.png"/>
+<img width="50%" height="50%" src="assets/macos-tahoe.webp"/>
 </p>
 
 ---
@@ -18,7 +18,9 @@
 
 ---
 
-# macOS 27 - Inicio
+# macOS - Inicio
+
+> Probado en macOS 27.0.1 (26A434) · MacBook Air M5 (Apple Silicon)
 
 Sigue las secciones en orden:
 
@@ -78,11 +80,11 @@ cd ~/Documents/GitHub/macos && ./install.sh
 
 _Si prefieres ir paso a paso, o para entender qué hace cada cosa, continuar con las secciones_
 
-> > **Sistema**
-> > **Aplicaciones**
-> > **Dev Environment**
-> > **Productividad**
-> > **IA**
+- [🖥️ Sistema](01-sistema/)
+- [📦 Aplicaciones](02-aplicaciones/)
+- [💻 Dev Environment](03-dev-environment/)
+- [⚡ Productividad](04-productividad/)
+- [🤖 IA Local](05-ia-local/)
 
 ---
 
