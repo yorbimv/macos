@@ -1,5 +1,5 @@
 <p align="center">
-<img width="50%" height="50%" src="https://cambiodigital-ol.com/wp-content/uploads/2023/06/mac-OS_Sonomajpg-696x392.jpg"/>
+<img width="50%" height="50%" src="https://upload.wikimedia.org/wikipedia/en/f/fa/MacOS_Tahoe_screenshot.png"/>
 </p>
 
 ---
