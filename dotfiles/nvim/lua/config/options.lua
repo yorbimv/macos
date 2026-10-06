@@ -1,0 +1,36 @@
+local opt = vim.opt
+
+opt.number = true
+opt.relativenumber = true
+opt.numberwidth = 1
+opt.mouse = "a"
+opt.clipboard = "unnamedplus"
+opt.encoding = "utf-8"
+opt.showmatch = true
+opt.showcmd = true
+opt.cursorline = true
+opt.laststatus = 3
+opt.showmode = false
+opt.signcolumn = "yes"
+opt.termguicolors = true
+opt.ignorecase = true
+opt.smartcase = true
+opt.incsearch = true
+opt.hlsearch = false
+opt.shiftwidth = 2
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.expandtab = true
+opt.smartindent = true
+opt.wrap = false
+opt.scrolloff = 8
+opt.sidescrolloff = 8
+opt.splitright = true
+opt.splitbelow = true
+opt.updatetime = 250
+opt.timeoutlen = 300
+opt.undofile = true
+opt.swapfile = false
+opt.backup = false
+opt.completeopt = { "menu", "menuone", "noselect" }
+opt.fillchars = { eob = " " }

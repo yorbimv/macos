@@ -35,7 +35,6 @@ Sigue las secciones en orden:
 > Una vez instalado el sistema, ejecutar lo siguiente en orden:
 
 ##### OpenCore-Patcher
-
 1.  Abrir **OpenCore Patcher**
 2.  Clic en Post-Install Root Patch
 3.  Reiniciar equipo
