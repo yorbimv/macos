@@ -14,8 +14,17 @@ return {
   opts = {
     close_if_last_window = true,
     filesystem = {
+      bind_to_cwd = false,
       follow_current_file = { enabled = true },
       filtered_items = { hide_dotfiles = false, hide_gitignored = true },
+    },
+    window = {
+      mappings = {
+        ["<space>"] = "none",
+        ["l"] = "open",
+        ["h"] = "close_node",
+        ["<bs>"] = "navigate_up",
+      },
     },
   },
 }

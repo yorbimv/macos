@@ -27,6 +27,7 @@ opt.scrolloff = 8
 opt.sidescrolloff = 8
 opt.splitright = true
 opt.splitbelow = true
+opt.equalalways = false
 opt.updatetime = 250
 opt.timeoutlen = 300
 opt.undofile = true
