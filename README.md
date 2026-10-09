@@ -93,7 +93,12 @@ sudo spctl --master-disable
 > Esto reduce la protección de Gatekeeper; para volver a activarla: `sudo spctl --global-enable`
 
 <p align="center">
+<sub><b>1. Permitir apps de: "Cualquier sitio"</b></sub><br/>
 <img src="assets/sistema-cualquier-sitio.png" alt="Seguridad: Permitir apps de Cualquier sitio" width="45%"/>
+</p>
+
+<p align="center">
+<sub><b>2. Seleccionar "Cualquier sitio" en el menú</b></sub><br/>
 <img src="assets/sistema-cualquier-sitio-menu.png" alt="Menú Permitir apps de" width="45%"/>
 </p>
 
