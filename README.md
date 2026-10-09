@@ -22,37 +22,63 @@
 
 > Probado en macOS 27.0.1 (26A434) · MacBook Air M5 (Apple Silicon)
 
+## Introducción
+
+Guía detallada para dejar un MacBook **listo para trabajar desde cero**. Si acabas de sacar el equipo de la caja (o cambiaste de computadora) aquí está todo lo necesario: actualizar el sistema, instalar aplicaciones, montar el entorno de desarrollo, productividad e IA local.
+
+Sigue los pasos **en orden** y al terminar tendrás el mismo entorno que describe este repositorio. Todos los enlaces, comandos y archivos de configuración viven aquí mismo.
+
+<details>
+<summary>Imagen 1: Información de la MacBook</summary>
+
 <p align="center">
 <img src="assets/sistema-info.png" alt="Ajustes del Sistema: Información del equipo" width="45%"/>
 </p>
 
-Guía paso a paso para **mantener la configuración y el entorno de desarrollo actual** al instalar o cambiar de equipo. Todos los enlaces, comandos y archivos de configuración necesarios se encuentran en este repositorio.
+</details>
 
-Sigue las secciones en orden:
+## Requisitos
+
+- **Hardware:** Mac con Apple Silicon (M1 o superior).
+- **Sistema:** macOS 27 (Tahoe) o superior, recién instalado.
+- **Apple ID** para iCloud.
+- **Cuenta de GitHub**, para clonar este repo y subir cambios (`gh auth login`).
+- **Cuenta de Microsoft**, para Office 365 y OneDrive.
+- **Internet estable**: iCloud puede tardar horas en sincronizar.
+
+### Respalda del equipo anterior
+
+Si vienes de otro equipo, este repo guarda tu **configuración**, no tus datos ni tus secretos. Antes de dejar la máquina vieja, guarda aparte:
+
+- Llaves SSH (`~/.ssh`) y tokens de acceso
+- Tu identidad de git (`~/.gitconfig.local`)
+- Licencias y cuentas de apps de pago (Alfred, CleanShot, etc.)
+- Archivos fuera de iCloud y bases de datos locales
+
+## Elige tu camino
+
+|                  | 🤖 Guiado                                            | 📖 Manual                                         |
+| ---------------- | ---------------------------------------------------- | ------------------------------------------------- |
+| **Para quién**   | Equipo nuevo, quieres avanzar rápido                 | Quieres entender o ajustar cada cosa              |
+| **Cómo**         | `./install.sh`: menú de 14 pasos, uno a la vez       | Secciones 01 a 05, en orden                       |
+| **Control**      | Cada paso muestra lo que instala y pide confirmar    | Tú copias y ejecutas cada comando                 |
+| **Ver sección**  | [2. Instalación guiada](#2-instalación-guiada-paso-a-paso) | [3. Instalación manual](#3-instalación-manual) |
+
+> Los **primeros pasos** (actualizar, iCloud y apps de terceros) son manuales en ambos caminos.
+
+## Secciones
+
+La guía se divide en estas secciones. Cada una indica su paso equivalente en `install.sh`:
 
 | #   | Sección                                   | Descripción                                       |
 | --- | ----------------------------------------- | ------------------------------------------------- |
-| 00  | [🚀 Inicio](#1-primeros-pasos)            | Actualizar, iCloud, apps de terceros              |
 | 01  | [🖥️ Sistema](01-sistema/)                 | Preferencias del sistema                          |
 | 02  | [📦 Aplicaciones](02-aplicaciones/)       | Homebrew, apps esenciales, inventario completo    |
 | 03  | [💻 Dev Environment](03-dev-environment/) | iTerm2, Zsh, Git, Neovim, VSCode                  |
 | 04  | [⚡ Productividad](04-productividad/)     | Cuentas, Office 365, OneDrive, email, navegadores |
 | 05  | [🤖 IA Local](05-ia-local/)               | OpenCode, Gemini, Ollama, archivos de contexto    |
 
----
-
-### Elige tu camino
-
-|                  | 🤖 Guiado                                          | 📖 Manual                                         |
-| ---------------- | -------------------------------------------------- | ------------------------------------------------- |
-| **Para quién**   | Equipo nuevo, quieres avanzar rápido               | Quieres entender o ajustar cada cosa              |
-| **Cómo**         | `./install.sh`: menú de 14 pasos, uno a la vez     | Secciones 01 a 05, en orden                       |
-| **Control**      | Cada paso muestra lo que instala y pide confirmar  | Tú copias y ejecutas cada comando                 |
-| **Ver sección**  | [2. Instalación guiada](#2-instalación-guiada-paso-a-paso) | [3. Instalación manual](#3-instalación-manual) |
-
-> Los **primeros pasos** (actualizar, iCloud y apps de terceros) son manuales en ambos caminos.
-
-### Qué incluye
+## Qué incluye
 
 | Área          | Herramientas                                                          |
 | ------------- | --------------------------------------------------------------------- |
@@ -63,33 +89,19 @@ Sigue las secciones en orden:
 | IA            | Claude, ChatGPT, Ollama, Gemini CLI, OpenCode                         |
 | Sistema       | Preferencias de Finder, Dock, trackpad y capturas                     |
 
-### Antes de empezar
-
-- **Apple ID** para iCloud.
-- **Cuenta de GitHub**, para subir cambios al repo desde el equipo nuevo (`gh auth login`).
-- **Cuenta de Microsoft**, para Office 365 y OneDrive.
-- **Internet estable**: iCloud puede tardar horas en sincronizar.
-
-### Respalda del equipo anterior
-
-Este repo guarda tu **configuración**, no tus datos ni tus secretos. Antes de dejar el equipo viejo, guarda aparte:
-
-- Llaves SSH (`~/.ssh`) y tokens de acceso
-- Tu identidad de git (`~/.gitconfig.local`)
-- Licencias y cuentas de apps de pago (Alfred, CleanShot, etc.)
-- Archivos fuera de iCloud y bases de datos locales
-
 ---
 
-### 1. Primeros pasos
+## 1. Primeros pasos
 
-##### 1.1 Actualizar a la versión más reciente
+_Se hacen a mano en ambos caminos (guiado y manual), antes de instalar nada._
+
+### 1.1 Actualizar a la versión más reciente
 
 1. Ir a Ajustes del Sistema
 2. Ir a General / Actualización de Software
 3. Instalar la última versión disponible y reiniciar
 
-##### 1.2 Loguearse en iCloud
+### 1.2 Loguearse en iCloud
 
 1. Ir a Ajustes del Sistema
 2. Login con la cuenta de iCloud
@@ -100,7 +112,7 @@ Este repo guarda tu **configuración**, no tus datos ni tus secretos. Antes de d
    - Esperar unas **horas** a que se descargue
    - Reiniciar Equipo y ya deben aparecer los archivos
 
-##### 1.3 Habilitar instalación de apps de terceros
+### 1.3 Habilitar instalación de apps de terceros
 
 _Permite instalar aplicaciones de "Cualquier Sitio"_
 
@@ -118,7 +130,7 @@ sudo spctl --master-disable
 
 > Después de reiniciar el equipo continuar con lo siguiente
 
-### 2. Instalación guiada (paso a paso)
+## 2. Instalación guiada (paso a paso)
 
 _Un menú interactivo: tú eliges qué paso ejecutar y confirmas cada instalación antes de que ocurra_
 
@@ -142,7 +154,7 @@ cd ~/Documents/GitHub/macos && ./install.sh
 - Los dotfiles se enlazan **uno por uno** y se respalda lo que ya exista (`*.bak-<fecha>`).
 - Las apps están separadas por categoría en [`brewfiles/`](brewfiles/): edita el archivo para quitar lo que no quieras.
 
-### 3. Instalación manual
+## 3. Instalación manual
 
 _Para entender qué hace cada paso, o hacerlo a mano, continuar con las secciones (cada una indica su paso de `install.sh`)_
 
@@ -154,7 +166,7 @@ _Para entender qué hace cada paso, o hacerlo a mano, continuar con las seccione
 
 ---
 
-### Verifica que quedó bien
+## Verifica que quedó bien
 
 - [ ] `./install.sh list` muestra los pasos que hiciste con ✓
 - [ ] Abres una terminal nueva y ves el prompt de Powerlevel10k con iconos
@@ -164,7 +176,7 @@ _Para entender qué hace cada paso, o hacerlo a mano, continuar con las seccione
 
 ---
 
-### Mantener el repo al día
+## Mantener el repo al día
 
 - Nueva app o CLI → agrégala al archivo que corresponda en [`brewfiles/`](brewfiles/).
 - Los dotfiles son symlinks: editar `~/.zshrc` o `~/.config/nvim` ya modifica el repo, solo haz commit.
