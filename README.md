@@ -36,6 +36,7 @@ Sigue los pasos **en orden** y al terminar tendrás el mismo entorno que describ
 - **Cuenta de GitHub**, para clonar este repo y subir cambios (`gh auth login`).
 - **Cuenta de Microsoft**, para Office 365 y OneDrive.
 - **Internet estable**: iCloud puede tardar horas en sincronizar.
+- **Ubicación del repo**: clonar en `~/Documents/GitHub/macos`, para que las rutas de Oh My Zsh (alias `github`, dotfiles) se mantengan.
 
 <details>
 <summary>Imagen 1: Información de la MacBook</summary>
@@ -92,7 +93,8 @@ sudo spctl --master-disable
 > Esto reduce la protección de Gatekeeper; para volver a activarla: `sudo spctl --global-enable`
 
 <p align="center">
-<img src="assets/sistema-privacidad.png" alt="Ajustes del Sistema: Privacidad y seguridad" width="45%"/>
+<img src="assets/sistema-cualquier-sitio.png" alt="Seguridad: Permitir apps de Cualquier sitio" width="45%"/>
+<img src="assets/sistema-cualquier-sitio-menu.png" alt="Menú Permitir apps de" width="45%"/>
 </p>
 
 > Después de reiniciar el equipo continuar con lo siguiente
