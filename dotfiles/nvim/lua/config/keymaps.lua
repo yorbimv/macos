@@ -75,6 +75,18 @@ local function toggle_float_term()
   vim.cmd("startinsert")
 end
 map("n", "<leader>T", toggle_float_term, { desc = "Terminal flotante (toggle)" })
+
+local function term_split(cmd)
+  return function()
+    vim.cmd(cmd)
+    vim.cmd("startinsert")
+  end
+end
+map("n", "<leader>tj", term_split("botright split | terminal"), { desc = "Terminal abajo" })
+map("n", "<leader>tk", term_split("topleft split | terminal"), { desc = "Terminal arriba" })
+map("n", "<leader>th", term_split("topleft vsplit | terminal"), { desc = "Terminal izquierda" })
+map("n", "<leader>tl", term_split("botright vsplit | terminal"), { desc = "Terminal derecha" })
+map("n", "<leader>tf", toggle_float_term, { desc = "Terminal flotante" })
 map("t", "<Esc>", "<C-\\><C-n>", { desc = "Salir del terminal" })
 
 map("n", "<leader>bd", "<cmd>bdelete<CR>", { desc = "Cerrar buffer" })
