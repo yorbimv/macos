@@ -28,15 +28,6 @@ Guía detallada para dejar un MacBook **listo para trabajar desde cero**. Si aca
 
 Sigue los pasos **en orden** y al terminar tendrás el mismo entorno que describe este repositorio. Todos los enlaces, comandos y archivos de configuración viven aquí mismo.
 
-<details>
-<summary>Imagen 1: Información de la MacBook</summary>
-
-<p align="center">
-<img src="assets/sistema-info.png" alt="Ajustes del Sistema: Información del equipo" width="45%"/>
-</p>
-
-</details>
-
 ## Requisitos
 
 - **Hardware:** Mac con Apple Silicon (M1 o superior).
@@ -46,27 +37,16 @@ Sigue los pasos **en orden** y al terminar tendrás el mismo entorno que describ
 - **Cuenta de Microsoft**, para Office 365 y OneDrive.
 - **Internet estable**: iCloud puede tardar horas en sincronizar.
 
-### Respalda del equipo anterior
+<details>
+<summary>Imagen 1: Información de la MacBook</summary>
 
-Si vienes de otro equipo, este repo guarda tu **configuración**, no tus datos ni tus secretos. Antes de dejar la máquina vieja, guarda aparte:
+<p align="center">
+<img src="assets/sistema-info.png" alt="Ajustes del Sistema: Información del equipo" width="45%"/>
+</p>
 
-- Llaves SSH (`~/.ssh`) y tokens de acceso
-- Tu identidad de git (`~/.gitconfig.local`)
-- Licencias y cuentas de apps de pago (Alfred, CleanShot, etc.)
-- Archivos fuera de iCloud y bases de datos locales
+</details>
 
-## Elige tu camino
-
-|                  | 🤖 Guiado                                            | 📖 Manual                                         |
-| ---------------- | ---------------------------------------------------- | ------------------------------------------------- |
-| **Para quién**   | Equipo nuevo, quieres avanzar rápido                 | Quieres entender o ajustar cada cosa              |
-| **Cómo**         | `./install.sh`: menú de 14 pasos, uno a la vez       | Secciones 01 a 05, en orden                       |
-| **Control**      | Cada paso muestra lo que instala y pide confirmar    | Tú copias y ejecutas cada comando                 |
-| **Ver sección**  | [2. Instalación guiada](#2-instalación-guiada-paso-a-paso) | [3. Instalación manual](#3-instalación-manual) |
-
-> Los **primeros pasos** (actualizar, iCloud y apps de terceros) son manuales en ambos caminos.
-
-## Secciones
+## Índice
 
 La guía se divide en estas secciones. Cada una indica su paso equivalente en `install.sh`:
 
@@ -78,30 +58,17 @@ La guía se divide en estas secciones. Cada una indica su paso equivalente en `i
 | 04  | [⚡ Productividad](04-productividad/)     | Cuentas, Office 365, OneDrive, email, navegadores |
 | 05  | [🤖 IA Local](05-ia-local/)               | OpenCode, Gemini, Ollama, archivos de contexto    |
 
-## Qué incluye
+## Primeros pasos
 
-| Área          | Herramientas                                                          |
-| ------------- | --------------------------------------------------------------------- |
-| Terminal      | iTerm2, zsh con Oh My Zsh + Powerlevel10k, fzf, lsd, ripgrep          |
-| Editores      | Neovim (Lua + lazy.nvim, LSP, Telescope), VSCode con extensiones      |
-| Git           | git, GitHub CLI, GitHub Desktop, alias                                |
-| Productividad | Alfred, Rectangle, Karabiner, Office 365, OneDrive, Google Drive      |
-| IA            | Claude, ChatGPT, Ollama, Gemini CLI, OpenCode                         |
-| Sistema       | Preferencias de Finder, Dock, trackpad y capturas                     |
+_Se hacen a mano en ambos caminos (automático y manual), antes de instalar nada._
 
----
-
-## 1. Primeros pasos
-
-_Se hacen a mano en ambos caminos (guiado y manual), antes de instalar nada._
-
-### 1.1 Actualizar a la versión más reciente
+### Actualizar a la versión más reciente
 
 1. Ir a Ajustes del Sistema
 2. Ir a General / Actualización de Software
 3. Instalar la última versión disponible y reiniciar
 
-### 1.2 Loguearse en iCloud
+### Loguearse en iCloud
 
 1. Ir a Ajustes del Sistema
 2. Login con la cuenta de iCloud
@@ -112,7 +79,7 @@ _Se hacen a mano en ambos caminos (guiado y manual), antes de instalar nada._
    - Esperar unas **horas** a que se descargue
    - Reiniciar Equipo y ya deben aparecer los archivos
 
-### 1.3 Habilitar instalación de apps de terceros
+### Habilitar instalación de apps de terceros
 
 _Permite instalar aplicaciones de "Cualquier Sitio"_
 
@@ -130,7 +97,18 @@ sudo spctl --master-disable
 
 > Después de reiniciar el equipo continuar con lo siguiente
 
-## 2. Instalación guiada (paso a paso)
+## Instalación
+
+_Elige el camino: **automático** con `install.sh`, o **manual** siguiendo las secciones 01 a 05._
+
+|                  | 🤖 Automática                                        | 📖 Manual                                         |
+| ---------------- | ---------------------------------------------------- | ------------------------------------------------- |
+| **Para quién**   | Equipo nuevo, quieres avanzar rápido                 | Quieres entender o ajustar cada cosa              |
+| **Cómo**         | `./install.sh`: menú de 14 pasos, uno a la vez       | Secciones 01 a 05, en orden                       |
+| **Control**      | Cada paso muestra lo que instala y pide confirmar    | Tú copias y ejecutas cada comando                 |
+| **Ver sección**  | [Instalación automática](#instalación-automática)    | [Instalación manual](#instalación-manual)         |
+
+### Instalación automática
 
 _Un menú interactivo: tú eliges qué paso ejecutar y confirmas cada instalación antes de que ocurra_
 
@@ -154,7 +132,7 @@ cd ~/Documents/GitHub/macos && ./install.sh
 - Los dotfiles se enlazan **uno por uno** y se respalda lo que ya exista (`*.bak-<fecha>`).
 - Las apps están separadas por categoría en [`brewfiles/`](brewfiles/): edita el archivo para quitar lo que no quieras.
 
-## 3. Instalación manual
+### Instalación manual
 
 _Para entender qué hace cada paso, o hacerlo a mano, continuar con las secciones (cada una indica su paso de `install.sh`)_
 
@@ -163,6 +141,17 @@ _Para entender qué hace cada paso, o hacerlo a mano, continuar con las seccione
 - [💻 Dev Environment](03-dev-environment/)
 - [⚡ Productividad](04-productividad/)
 - [🤖 IA Local](05-ia-local/)
+
+## Qué incluye
+
+| Área          | Herramientas                                                          |
+| ------------- | --------------------------------------------------------------------- |
+| Terminal      | iTerm2, zsh con Oh My Zsh + Powerlevel10k, fzf, lsd, ripgrep          |
+| Editores      | Neovim (Lua + lazy.nvim, LSP, Telescope), VSCode con extensiones      |
+| Git           | git, GitHub CLI, GitHub Desktop, alias                                |
+| Productividad | Alfred, Rectangle, Karabiner, Office 365, OneDrive, Google Drive      |
+| IA            | Claude, ChatGPT, Ollama, Gemini CLI, OpenCode                         |
+| Sistema       | Preferencias de Finder, Dock, trackpad y capturas                     |
 
 ---
 
@@ -185,3 +174,7 @@ _Para entender qué hace cada paso, o hacerlo a mano, continuar con las seccione
 
 **Problemas comunes y soluciones en [troubleshooting/](troubleshooting/)**
 **Última actualización:** Octubre 2026
+
+---
+
+> Continúa con las secciones en el orden que marca el [Índice](#índice).
